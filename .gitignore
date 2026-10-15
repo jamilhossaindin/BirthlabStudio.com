@@ -20,3 +20,5 @@ Thumbs.db
 
 # Scratch and Temporary Build Files
 .tempmediaStorage/
+
+.vercel
