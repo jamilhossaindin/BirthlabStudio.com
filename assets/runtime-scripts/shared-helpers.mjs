@@ -1,0 +1,2 @@
+import{t as e}from"./runtime-loader.mjs";function t(e,t){return{description:`BirthLab Studio is a digital design studio and creative agency specialising in branding, web design, UI/UX, and digital products.`,favicon:`https://framerusercontent.com/assets/l27dNxuH0hmO5iQpsVx8PnCRM.png`,robots:`max-image-preview:large`,socialImage:`/assets/shared/birthlab-og-card.jpg`,title:`BirthLab Studio`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=shared-helpers.mjs.map

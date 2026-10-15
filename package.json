@@ -1,0 +1,17 @@
+{
+  "name": "birthlab-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Birthlab Studio website",
+  "scripts": {
+    "start": "serve -l 3000",
+    "dev": "serve -l 3000",
+    "find-asset": "node scripts/find-asset.mjs"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "overrides": {
+    "compression": "^1.8.2"
+  }
+}
