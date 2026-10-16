@@ -102,6 +102,84 @@ try {
     wakeUpPage();
     setTimeout(wakeUpPage, 500);
   });
+
+  // 5. Automatic Asset Sync & Live Hot-Swap Engine (Local Development)
+  try {
+    var isLocalEnv = window.location.hostname === 'localhost' ||
+                     window.location.hostname === '127.0.0.1' ||
+                     window.location.hostname === '0.0.0.0' ||
+                     window.location.protocol === 'file:';
+
+    if (isLocalEnv) {
+      (function initLiveAssetSync() {
+        var assetSignatures = new Map();
+        var isPolling = false;
+
+        function getTrackedElements() {
+          var items = [];
+          document.querySelectorAll('img[src], video[src], link[rel*="icon"]').forEach(function(el) {
+            var src = el.getAttribute('src') || el.getAttribute('href');
+            if (src && !src.startsWith('data:') && !src.startsWith('blob:') && !src.startsWith('http://') && !src.startsWith('https://')) {
+              items.push({ el: el, rawSrc: src, cleanSrc: src.split('?')[0] });
+            }
+          });
+          return items;
+        }
+
+        function checkAsset(item) {
+          return new Promise(function(resolve) {
+            fetch(item.cleanSrc, { method: 'HEAD', cache: 'no-cache' })
+              .then(function(res) {
+                if (!res.ok) return resolve();
+                var sig = (res.headers.get('etag') || '') + '|' + (res.headers.get('content-length') || '') + '|' + (res.headers.get('last-modified') || '');
+                var existing = assetSignatures.get(item.cleanSrc);
+                if (existing === undefined) {
+                  assetSignatures.set(item.cleanSrc, sig);
+                } else if (existing !== sig && sig !== '||') {
+                  console.log('[BirthLab Asset Sync] Detected updated asset:', item.cleanSrc);
+                  assetSignatures.set(item.cleanSrc, sig);
+                  var buster = '?t=' + Date.now();
+                  var base = item.cleanSrc;
+                  var tag = item.el.tagName;
+
+                  if (tag === 'IMG') {
+                    item.el.src = base + buster;
+                    var origSrcset = item.el.getAttribute('srcset');
+                    if (origSrcset) {
+                      var updated = origSrcset.replace(new RegExp(base.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(\\?t=\\d+)?', 'g'), base + buster);
+                      item.el.setAttribute('srcset', updated);
+                    }
+                  } else if (tag === 'VIDEO') {
+                    var cur = item.el.currentTime;
+                    var playing = !item.el.paused;
+                    item.el.src = base + buster;
+                    item.el.load();
+                    item.el.currentTime = cur;
+                    if (playing) item.el.play().catch(function() {});
+                  } else {
+                    item.el.href = base + buster;
+                  }
+                }
+                resolve();
+              })
+              .catch(function() { resolve(); });
+          });
+        }
+
+        function poll() {
+          if (isPolling) return;
+          isPolling = true;
+          var tracked = getTrackedElements();
+          if (!tracked.length) { isPolling = false; return; }
+          var promises = tracked.map(checkAsset);
+          Promise.all(promises).then(function() { isPolling = false; }).catch(function() { isPolling = false; });
+        }
+
+        setTimeout(poll, 1000);
+        setInterval(poll, 1500);
+      })();
+    }
+  } catch(e) {}
 })();
 </script>
 
