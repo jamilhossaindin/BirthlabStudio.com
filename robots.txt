@@ -1,0 +1,42 @@
+# BirthLab Studio — Search Engine Crawler Instructions
+# Welcome all search engine spiders: Google, Brave, DuckDuckGo, Bing, Apple, Baidu
+
+User-agent: *
+Allow: /
+Disallow: /docs/
+Disallow: /scripts/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Bravebot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+Sitemap: https://birthlabstudio.com/sitemap.xml
