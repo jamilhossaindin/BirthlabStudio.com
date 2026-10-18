@@ -6,6 +6,8 @@
   "scripts": {
     "start": "serve -l 3000",
     "dev": "serve -l 3000",
+    "update-text": "node scripts/update-text.mjs",
+    "update-asset": "node scripts/update-asset.mjs",
     "find-asset": "node scripts/find-asset.mjs"
   },
   "dependencies": {
