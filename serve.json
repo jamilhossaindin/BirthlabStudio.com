@@ -1,0 +1,133 @@
+{
+  "rewrites": [
+    {
+      "source": "/121g",
+      "destination": "/case-studies/121g/index.html"
+    },
+    {
+      "source": "/beyondtellerrand",
+      "destination": "/case-studies/beyondtellerrand/index.html"
+    },
+    {
+      "source": "/bigeye",
+      "destination": "/case-studies/bigeye/index.html"
+    },
+    {
+      "source": "/epic-travel",
+      "destination": "/case-studies/epic-travel/index.html"
+    },
+    {
+      "source": "/getty-images",
+      "destination": "/case-studies/getty-images/index.html"
+    },
+    {
+      "source": "/justphil",
+      "destination": "/case-studies/justphil/index.html"
+    },
+    {
+      "source": "/kapilandholly",
+      "destination": "/case-studies/kapilandholly/index.html"
+    },
+    {
+      "source": "/linkboard",
+      "destination": "/case-studies/linkboard/index.html"
+    },
+    {
+      "source": "/lumaandleaf",
+      "destination": "/case-studies/lumaandleaf/index.html"
+    },
+    {
+      "source": "/birthlab-beer",
+      "destination": "/case-studies/birthlab-beer/index.html"
+    },
+    {
+      "source": "/mixd",
+      "destination": "/case-studies/mixd/index.html"
+    },
+    {
+      "source": "/plug-digital",
+      "destination": "/case-studies/plug-digital/index.html"
+    },
+    {
+      "source": "/slashwork",
+      "destination": "/case-studies/slashwork/index.html"
+    },
+    {
+      "source": "/snapsound",
+      "destination": "/case-studies/snapsound/index.html"
+    },
+    {
+      "source": "/thebodyshop",
+      "destination": "/case-studies/thebodyshop/index.html"
+    },
+    {
+      "source": "/tvs",
+      "destination": "/case-studies/tvs/index.html"
+    },
+    {
+      "source": "/x",
+      "destination": "/case-studies/x/index.html"
+    },
+    {
+      "source": "/birthlab-beer",
+      "destination": "/case-studies/birthlab-beer/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "**",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "assets/**",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "key": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "key": "Expires",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "source": "**/*.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "key": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "key": "Expires",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}
