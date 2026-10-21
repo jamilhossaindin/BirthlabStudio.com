@@ -1,76 +1,752 @@
 {
   "rewrites": [
     {
+      "source": "/astra",
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/form-forward",
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/northline",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/daybreak-brew",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/roam-atlas",
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/frame-library",
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/ridekind",
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/harbour-notes",
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/studio-links",
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/fern-and-form",
+      "destination": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "source": "/modo",
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/cart-and-craft",
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/threadwell",
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/echo-grove",
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/root-ritual",
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/signal-stack",
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/after-hours",
+      "destination": "/case-studies/after-hours/index.html"
+    },
+    {
       "source": "/121g",
-      "destination": "/case-studies/121g/index.html"
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/121g/",
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/121g/index",
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/121g/index.html",
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/case-studies/121g",
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/case-studies/121g/",
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/case-studies/121g/index",
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/case-studies/121g/index.html",
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/astra/index",
+      "destination": "/case-studies/astra/index.html"
+    },
+    {
+      "source": "/astra/index.html",
+      "destination": "/case-studies/astra/index.html"
     },
     {
       "source": "/beyondtellerrand",
-      "destination": "/case-studies/beyondtellerrand/index.html"
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/beyondtellerrand/",
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/beyondtellerrand/index",
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/beyondtellerrand/index.html",
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/case-studies/beyondtellerrand",
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/case-studies/beyondtellerrand/",
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/case-studies/beyondtellerrand/index",
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/case-studies/beyondtellerrand/index.html",
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/form-forward/index",
+      "destination": "/case-studies/form-forward/index.html"
+    },
+    {
+      "source": "/form-forward/index.html",
+      "destination": "/case-studies/form-forward/index.html"
     },
     {
       "source": "/bigeye",
-      "destination": "/case-studies/bigeye/index.html"
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/bigeye/",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/bigeye/index",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/bigeye/index.html",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/case-studies/bigeye",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/case-studies/bigeye/",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/case-studies/bigeye/index",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/case-studies/bigeye/index.html",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/northline/index",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/northline/index.html",
+      "destination": "/case-studies/northline/index.html"
+    },
+    {
+      "source": "/birthlab-beer",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/birthlab-beer/",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/birthlab-beer/index",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/birthlab-beer/index.html",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/case-studies/birthlab-beer",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/case-studies/birthlab-beer/",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/case-studies/birthlab-beer/index",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/case-studies/birthlab-beer/index.html",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/daybreak-brew/index",
+      "destination": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "source": "/daybreak-brew/index.html",
+      "destination": "/case-studies/daybreak-brew/index.html"
     },
     {
       "source": "/epic-travel",
-      "destination": "/case-studies/epic-travel/index.html"
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/epic-travel/",
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/epic-travel/index",
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/epic-travel/index.html",
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/case-studies/epic-travel",
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/case-studies/epic-travel/",
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/case-studies/epic-travel/index",
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/case-studies/epic-travel/index.html",
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/roam-atlas/index",
+      "destination": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "source": "/roam-atlas/index.html",
+      "destination": "/case-studies/roam-atlas/index.html"
     },
     {
       "source": "/getty-images",
-      "destination": "/case-studies/getty-images/index.html"
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/getty-images/",
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/getty-images/index",
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/getty-images/index.html",
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/case-studies/getty-images",
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/case-studies/getty-images/",
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/case-studies/getty-images/index",
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/case-studies/getty-images/index.html",
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/frame-library/index",
+      "destination": "/case-studies/frame-library/index.html"
+    },
+    {
+      "source": "/frame-library/index.html",
+      "destination": "/case-studies/frame-library/index.html"
     },
     {
       "source": "/justphil",
-      "destination": "/case-studies/justphil/index.html"
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/justphil/",
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/justphil/index",
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/justphil/index.html",
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/case-studies/justphil",
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/case-studies/justphil/",
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/case-studies/justphil/index",
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/case-studies/justphil/index.html",
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/ridekind/index",
+      "destination": "/case-studies/ridekind/index.html"
+    },
+    {
+      "source": "/ridekind/index.html",
+      "destination": "/case-studies/ridekind/index.html"
     },
     {
       "source": "/kapilandholly",
-      "destination": "/case-studies/kapilandholly/index.html"
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/kapilandholly/",
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/kapilandholly/index",
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/kapilandholly/index.html",
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/case-studies/kapilandholly",
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/case-studies/kapilandholly/",
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/case-studies/kapilandholly/index",
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/case-studies/kapilandholly/index.html",
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/harbour-notes/index",
+      "destination": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "source": "/harbour-notes/index.html",
+      "destination": "/case-studies/harbour-notes/index.html"
     },
     {
       "source": "/linkboard",
-      "destination": "/case-studies/linkboard/index.html"
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/linkboard/",
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/linkboard/index",
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/linkboard/index.html",
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/case-studies/linkboard",
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/case-studies/linkboard/",
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/case-studies/linkboard/index",
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/case-studies/linkboard/index.html",
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/studio-links/index",
+      "destination": "/case-studies/studio-links/index.html"
+    },
+    {
+      "source": "/studio-links/index.html",
+      "destination": "/case-studies/studio-links/index.html"
     },
     {
       "source": "/lumaandleaf",
-      "destination": "/case-studies/lumaandleaf/index.html"
+      "destination": "/case-studies/fern-and-form/index.html"
     },
     {
-      "source": "/birthlab-beer",
-      "destination": "/case-studies/birthlab-beer/index.html"
+      "source": "/lumaandleaf/",
+      "destination": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "source": "/lumaandleaf/index",
+      "destination": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "source": "/lumaandleaf/index.html",
+      "destination": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "source": "/case-studies/lumaandleaf",
+      "destination": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "source": "/case-studies/lumaandleaf/",
+      "destination": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "source": "/case-studies/lumaandleaf/index",
+      "destination": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "source": "/case-studies/lumaandleaf/index.html",
+      "destination": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "source": "/fern-and-form/index",
+      "destination": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "source": "/fern-and-form/index.html",
+      "destination": "/case-studies/fern-and-form/index.html"
     },
     {
       "source": "/mixd",
-      "destination": "/case-studies/mixd/index.html"
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/mixd/",
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/mixd/index",
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/mixd/index.html",
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/case-studies/mixd",
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/case-studies/mixd/",
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/case-studies/mixd/index",
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/case-studies/mixd/index.html",
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/modo/index",
+      "destination": "/case-studies/modo/index.html"
+    },
+    {
+      "source": "/modo/index.html",
+      "destination": "/case-studies/modo/index.html"
     },
     {
       "source": "/plug-digital",
-      "destination": "/case-studies/plug-digital/index.html"
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/plug-digital/",
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/plug-digital/index",
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/plug-digital/index.html",
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/case-studies/plug-digital",
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/case-studies/plug-digital/",
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/case-studies/plug-digital/index",
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/case-studies/plug-digital/index.html",
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/cart-and-craft/index",
+      "destination": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "source": "/cart-and-craft/index.html",
+      "destination": "/case-studies/cart-and-craft/index.html"
     },
     {
       "source": "/slashwork",
-      "destination": "/case-studies/slashwork/index.html"
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/slashwork/",
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/slashwork/index",
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/slashwork/index.html",
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/case-studies/slashwork",
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/case-studies/slashwork/",
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/case-studies/slashwork/index",
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/case-studies/slashwork/index.html",
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/threadwell/index",
+      "destination": "/case-studies/threadwell/index.html"
+    },
+    {
+      "source": "/threadwell/index.html",
+      "destination": "/case-studies/threadwell/index.html"
     },
     {
       "source": "/snapsound",
-      "destination": "/case-studies/snapsound/index.html"
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/snapsound/",
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/snapsound/index",
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/snapsound/index.html",
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/case-studies/snapsound",
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/case-studies/snapsound/",
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/case-studies/snapsound/index",
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/case-studies/snapsound/index.html",
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/echo-grove/index",
+      "destination": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "source": "/echo-grove/index.html",
+      "destination": "/case-studies/echo-grove/index.html"
     },
     {
       "source": "/thebodyshop",
-      "destination": "/case-studies/thebodyshop/index.html"
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/thebodyshop/",
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/thebodyshop/index",
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/thebodyshop/index.html",
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/case-studies/thebodyshop",
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/case-studies/thebodyshop/",
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/case-studies/thebodyshop/index",
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/case-studies/thebodyshop/index.html",
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/root-ritual/index",
+      "destination": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "source": "/root-ritual/index.html",
+      "destination": "/case-studies/root-ritual/index.html"
     },
     {
       "source": "/tvs",
-      "destination": "/case-studies/tvs/index.html"
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/tvs/",
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/tvs/index",
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/tvs/index.html",
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/case-studies/tvs",
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/case-studies/tvs/",
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/case-studies/tvs/index",
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/case-studies/tvs/index.html",
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/signal-stack/index",
+      "destination": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "source": "/signal-stack/index.html",
+      "destination": "/case-studies/signal-stack/index.html"
     },
     {
       "source": "/x",
-      "destination": "/case-studies/x/index.html"
+      "destination": "/case-studies/after-hours/index.html"
     },
     {
-      "source": "/birthlab-beer",
-      "destination": "/case-studies/birthlab-beer/index.html"
+      "source": "/x/",
+      "destination": "/case-studies/after-hours/index.html"
+    },
+    {
+      "source": "/x/index",
+      "destination": "/case-studies/after-hours/index.html"
+    },
+    {
+      "source": "/x/index.html",
+      "destination": "/case-studies/after-hours/index.html"
+    },
+    {
+      "source": "/case-studies/x",
+      "destination": "/case-studies/after-hours/index.html"
+    },
+    {
+      "source": "/case-studies/x/",
+      "destination": "/case-studies/after-hours/index.html"
+    },
+    {
+      "source": "/case-studies/x/index",
+      "destination": "/case-studies/after-hours/index.html"
+    },
+    {
+      "source": "/case-studies/x/index.html",
+      "destination": "/case-studies/after-hours/index.html"
+    },
+    {
+      "source": "/after-hours/index",
+      "destination": "/case-studies/after-hours/index.html"
+    },
+    {
+      "source": "/after-hours/index.html",
+      "destination": "/case-studies/after-hours/index.html"
     }
   ],
   "headers": [
@@ -78,12 +754,16 @@
       "source": "**",
       "headers": [
         {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'sha256-0wCfZQ9rflCKsG3KdZh1wFIE4C0CFggw80O+IvFcEfo=' 'sha256-8WI9xq5+bHm6biJTg8NJNnEW6B8NihChU2jZSm33DIA=' 'sha256-8tIt31BzsySTdVp/+MwoyhLSQCOlEw2+qmCfJ7AhSkc=' 'sha256-YcICi5q1ZLWmS6Mv1ZZdZWpR5N7Us8ql1PYGjeCSSuI=' 'sha256-hHHwXo5LlH7x9g8rIGIMlKuOSF7jTmeVUtelXmZLk+Q=' 'sha256-mxGLvoz2gWXnu6wUgCfErK9GUDaFpmS1VC2StwtQorc=' 'sha256-qOi5T08WW1Htc5YADz4C7xQhGtVYMbLaccGi9smu3Lw=' 'sha256-t2vIQ++0Uc6+d8MX8VTj91tBlwy6Hf6ubyQNl4fgpgE='; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://i.ytimg.com; font-src 'self' data:; media-src 'self' blob:; connect-src 'self'; frame-src https://www.youtube-nocookie.com; frame-ancestors 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; worker-src 'none'; manifest-src 'self'"
+        },
+        {
           "key": "X-Content-Type-Options",
           "value": "nosniff"
         },
         {
           "key": "X-Frame-Options",
-          "value": "SAMEORIGIN"
+          "value": "DENY"
         },
         {
           "key": "Referrer-Policy",
@@ -91,7 +771,15 @@
         },
         {
           "key": "Permissions-Policy",
-          "value": "camera=(), microphone=(), geolocation=()"
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        },
+        {
+          "key": "Cross-Origin-Resource-Policy",
+          "value": "same-origin"
         }
       ]
     },
@@ -128,6 +816,131 @@
           "value": "0"
         }
       ]
+    }
+  ],
+  "directoryListing": false,
+  "renderSingle": false,
+  "symlinks": false,
+  "redirects": [
+    {
+      "source": "/collaborate",
+      "destination": "/contact/?enquiry=start-a-project",
+      "type": 308
+    },
+    {
+      "source": "/collaborate/",
+      "destination": "/contact/?enquiry=start-a-project",
+      "type": 308
+    },
+    {
+      "source": "/collaborate/index",
+      "destination": "/contact/?enquiry=start-a-project",
+      "type": 308
+    },
+    {
+      "source": "/collaborate/index.html",
+      "destination": "/contact/?enquiry=start-a-project",
+      "type": 308
+    },
+    {
+      "source": "/.git",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/.git/**",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/.vercel",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/.vercel/**",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/.agents",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/.agents/**",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/node_modules",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/node_modules/**",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/docs",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/docs/**",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/scripts",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/scripts/**",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/*.json",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/*.md",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/.env*",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/.npmrc",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/.gitignore",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/.vercelignore",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/assets/*.json",
+      "destination": "/404",
+      "type": 307
+    },
+    {
+      "source": "/assets/*.md",
+      "destination": "/404",
+      "type": 307
     }
   ]
 }

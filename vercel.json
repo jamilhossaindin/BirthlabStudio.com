@@ -1,4 +1,1160 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "headers": {
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' 'sha256-0wCfZQ9rflCKsG3KdZh1wFIE4C0CFggw80O+IvFcEfo=' 'sha256-8WI9xq5+bHm6biJTg8NJNnEW6B8NihChU2jZSm33DIA=' 'sha256-8tIt31BzsySTdVp/+MwoyhLSQCOlEw2+qmCfJ7AhSkc=' 'sha256-YcICi5q1ZLWmS6Mv1ZZdZWpR5N7Us8ql1PYGjeCSSuI=' 'sha256-hHHwXo5LlH7x9g8rIGIMlKuOSF7jTmeVUtelXmZLk+Q=' 'sha256-mxGLvoz2gWXnu6wUgCfErK9GUDaFpmS1VC2StwtQorc=' 'sha256-qOi5T08WW1Htc5YADz4C7xQhGtVYMbLaccGi9smu3Lw=' 'sha256-t2vIQ++0Uc6+d8MX8VTj91tBlwy6Hf6ubyQNl4fgpgE='; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://i.ytimg.com; font-src 'self' data:; media-src 'self' blob:; connect-src 'self'; frame-src https://www.youtube-nocookie.com; frame-ancestors 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; worker-src 'none'; manifest-src 'self'",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "DENY",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=()",
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "Cross-Origin-Resource-Policy": "same-origin",
+        "Strict-Transport-Security": "max-age=31536000"
+      },
+      "continue": true
+    },
+    {
+      "src": "^/(?!(?:|index|index\\.html|404|404/|404/index|404/index\\.html|about|about/|about/index|about/index\\.html|contact|contact/|contact/index|contact/index\\.html|work|work/|work/index|work/index\\.html|services|services/|services/index|services/index\\.html|process|process/|process/index|process/index\\.html|case-studies/astra|case-studies/astra/|case-studies/astra/index|case-studies/astra/index\\.html|case-studies/form-forward|case-studies/form-forward/|case-studies/form-forward/index|case-studies/form-forward/index\\.html|case-studies/northline|case-studies/northline/|case-studies/northline/index|case-studies/northline/index\\.html|case-studies/daybreak-brew|case-studies/daybreak-brew/|case-studies/daybreak-brew/index|case-studies/daybreak-brew/index\\.html|case-studies/roam-atlas|case-studies/roam-atlas/|case-studies/roam-atlas/index|case-studies/roam-atlas/index\\.html|case-studies/frame-library|case-studies/frame-library/|case-studies/frame-library/index|case-studies/frame-library/index\\.html|case-studies/ridekind|case-studies/ridekind/|case-studies/ridekind/index|case-studies/ridekind/index\\.html|case-studies/harbour-notes|case-studies/harbour-notes/|case-studies/harbour-notes/index|case-studies/harbour-notes/index\\.html|case-studies/studio-links|case-studies/studio-links/|case-studies/studio-links/index|case-studies/studio-links/index\\.html|case-studies/fern-and-form|case-studies/fern-and-form/|case-studies/fern-and-form/index|case-studies/fern-and-form/index\\.html|case-studies/modo|case-studies/modo/|case-studies/modo/index|case-studies/modo/index\\.html|case-studies/cart-and-craft|case-studies/cart-and-craft/|case-studies/cart-and-craft/index|case-studies/cart-and-craft/index\\.html|case-studies/threadwell|case-studies/threadwell/|case-studies/threadwell/index|case-studies/threadwell/index\\.html|case-studies/echo-grove|case-studies/echo-grove/|case-studies/echo-grove/index|case-studies/echo-grove/index\\.html|case-studies/root-ritual|case-studies/root-ritual/|case-studies/root-ritual/index|case-studies/root-ritual/index\\.html|case-studies/signal-stack|case-studies/signal-stack/|case-studies/signal-stack/index|case-studies/signal-stack/index\\.html|case-studies/after-hours|case-studies/after-hours/|case-studies/after-hours/index|case-studies/after-hours/index\\.html|astra|astra/|form-forward|form-forward/|northline|northline/|daybreak-brew|daybreak-brew/|roam-atlas|roam-atlas/|frame-library|frame-library/|ridekind|ridekind/|harbour-notes|harbour-notes/|studio-links|studio-links/|fern-and-form|fern-and-form/|modo|modo/|cart-and-craft|cart-and-craft/|threadwell|threadwell/|echo-grove|echo-grove/|root-ritual|root-ritual/|signal-stack|signal-stack/|after-hours|after-hours/|121g|121g/|121g/index|121g/index\\.html|case-studies/121g|case-studies/121g/|case-studies/121g/index|case-studies/121g/index\\.html|astra/index|astra/index\\.html|beyondtellerrand|beyondtellerrand/|beyondtellerrand/index|beyondtellerrand/index\\.html|case-studies/beyondtellerrand|case-studies/beyondtellerrand/|case-studies/beyondtellerrand/index|case-studies/beyondtellerrand/index\\.html|form-forward/index|form-forward/index\\.html|bigeye|bigeye/|bigeye/index|bigeye/index\\.html|case-studies/bigeye|case-studies/bigeye/|case-studies/bigeye/index|case-studies/bigeye/index\\.html|northline/index|northline/index\\.html|birthlab-beer|birthlab-beer/|birthlab-beer/index|birthlab-beer/index\\.html|case-studies/birthlab-beer|case-studies/birthlab-beer/|case-studies/birthlab-beer/index|case-studies/birthlab-beer/index\\.html|daybreak-brew/index|daybreak-brew/index\\.html|epic-travel|epic-travel/|epic-travel/index|epic-travel/index\\.html|case-studies/epic-travel|case-studies/epic-travel/|case-studies/epic-travel/index|case-studies/epic-travel/index\\.html|roam-atlas/index|roam-atlas/index\\.html|getty-images|getty-images/|getty-images/index|getty-images/index\\.html|case-studies/getty-images|case-studies/getty-images/|case-studies/getty-images/index|case-studies/getty-images/index\\.html|frame-library/index|frame-library/index\\.html|justphil|justphil/|justphil/index|justphil/index\\.html|case-studies/justphil|case-studies/justphil/|case-studies/justphil/index|case-studies/justphil/index\\.html|ridekind/index|ridekind/index\\.html|kapilandholly|kapilandholly/|kapilandholly/index|kapilandholly/index\\.html|case-studies/kapilandholly|case-studies/kapilandholly/|case-studies/kapilandholly/index|case-studies/kapilandholly/index\\.html|harbour-notes/index|harbour-notes/index\\.html|linkboard|linkboard/|linkboard/index|linkboard/index\\.html|case-studies/linkboard|case-studies/linkboard/|case-studies/linkboard/index|case-studies/linkboard/index\\.html|studio-links/index|studio-links/index\\.html|lumaandleaf|lumaandleaf/|lumaandleaf/index|lumaandleaf/index\\.html|case-studies/lumaandleaf|case-studies/lumaandleaf/|case-studies/lumaandleaf/index|case-studies/lumaandleaf/index\\.html|fern-and-form/index|fern-and-form/index\\.html|mixd|mixd/|mixd/index|mixd/index\\.html|case-studies/mixd|case-studies/mixd/|case-studies/mixd/index|case-studies/mixd/index\\.html|modo/index|modo/index\\.html|plug-digital|plug-digital/|plug-digital/index|plug-digital/index\\.html|case-studies/plug-digital|case-studies/plug-digital/|case-studies/plug-digital/index|case-studies/plug-digital/index\\.html|cart-and-craft/index|cart-and-craft/index\\.html|slashwork|slashwork/|slashwork/index|slashwork/index\\.html|case-studies/slashwork|case-studies/slashwork/|case-studies/slashwork/index|case-studies/slashwork/index\\.html|threadwell/index|threadwell/index\\.html|snapsound|snapsound/|snapsound/index|snapsound/index\\.html|case-studies/snapsound|case-studies/snapsound/|case-studies/snapsound/index|case-studies/snapsound/index\\.html|echo-grove/index|echo-grove/index\\.html|thebodyshop|thebodyshop/|thebodyshop/index|thebodyshop/index\\.html|case-studies/thebodyshop|case-studies/thebodyshop/|case-studies/thebodyshop/index|case-studies/thebodyshop/index\\.html|root-ritual/index|root-ritual/index\\.html|tvs|tvs/|tvs/index|tvs/index\\.html|case-studies/tvs|case-studies/tvs/|case-studies/tvs/index|case-studies/tvs/index\\.html|signal-stack/index|signal-stack/index\\.html|x|x/|x/index|x/index\\.html|case-studies/x|case-studies/x/|case-studies/x/index|case-studies/x/index\\.html|after-hours/index|after-hours/index\\.html|robots\\.txt|sitemap\\.xml|collaborate|collaborate/|collaborate/index|collaborate/index\\.html|assets/(?:[A-Za-z0-9_-]+/)*[A-Za-z0-9_][A-Za-z0-9_.-]*\\.(?:avif|css|eot|gif|ico|jpe?g|js|mjs|mp3|mp4|ogg|otf|png|svg|ttf|wav|webm|webp|woff2?))$).*$",
+      "status": 404
+    },
+    {
+      "src": "^/collaborate$",
+      "status": 308,
+      "headers": {
+        "Location": "/contact/?enquiry=start-a-project"
+      }
+    },
+    {
+      "src": "^/collaborate/$",
+      "status": 308,
+      "headers": {
+        "Location": "/contact/?enquiry=start-a-project"
+      }
+    },
+    {
+      "src": "^/collaborate/index$",
+      "status": 308,
+      "headers": {
+        "Location": "/contact/?enquiry=start-a-project"
+      }
+    },
+    {
+      "src": "^/collaborate/index\\.html$",
+      "status": 308,
+      "headers": {
+        "Location": "/contact/?enquiry=start-a-project"
+      }
+    },
+    {
+      "src": "^/$",
+      "dest": "/index.html"
+    },
+    {
+      "src": "^/index$",
+      "dest": "/index.html"
+    },
+    {
+      "src": "^/404$",
+      "dest": "/404/index.html"
+    },
+    {
+      "src": "^/404/$",
+      "dest": "/404/index.html"
+    },
+    {
+      "src": "^/404/index$",
+      "dest": "/404/index.html"
+    },
+    {
+      "src": "^/about$",
+      "dest": "/about/index.html"
+    },
+    {
+      "src": "^/about/$",
+      "dest": "/about/index.html"
+    },
+    {
+      "src": "^/about/index$",
+      "dest": "/about/index.html"
+    },
+    {
+      "src": "^/contact$",
+      "dest": "/contact/index.html"
+    },
+    {
+      "src": "^/contact/$",
+      "dest": "/contact/index.html"
+    },
+    {
+      "src": "^/contact/index$",
+      "dest": "/contact/index.html"
+    },
+    {
+      "src": "^/work$",
+      "dest": "/work/index.html"
+    },
+    {
+      "src": "^/work/$",
+      "dest": "/work/index.html"
+    },
+    {
+      "src": "^/work/index$",
+      "dest": "/work/index.html"
+    },
+    {
+      "src": "^/services$",
+      "dest": "/services/index.html"
+    },
+    {
+      "src": "^/services/$",
+      "dest": "/services/index.html"
+    },
+    {
+      "src": "^/services/index$",
+      "dest": "/services/index.html"
+    },
+    {
+      "src": "^/process$",
+      "dest": "/process/index.html"
+    },
+    {
+      "src": "^/process/$",
+      "dest": "/process/index.html"
+    },
+    {
+      "src": "^/process/index$",
+      "dest": "/process/index.html"
+    },
+    {
+      "src": "^/case-studies/astra$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/case-studies/astra/$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/case-studies/astra/index$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/case-studies/form-forward$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/case-studies/form-forward/$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/case-studies/form-forward/index$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/case-studies/northline$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/case-studies/northline/$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/case-studies/northline/index$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/case-studies/daybreak-brew$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/case-studies/daybreak-brew/$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/case-studies/daybreak-brew/index$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/case-studies/roam-atlas$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/case-studies/roam-atlas/$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/case-studies/roam-atlas/index$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/case-studies/frame-library$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/case-studies/frame-library/$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/case-studies/frame-library/index$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/case-studies/ridekind$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/case-studies/ridekind/$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/case-studies/ridekind/index$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/case-studies/harbour-notes$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/case-studies/harbour-notes/$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/case-studies/harbour-notes/index$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/case-studies/studio-links$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/case-studies/studio-links/$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/case-studies/studio-links/index$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/case-studies/fern-and-form$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/case-studies/fern-and-form/$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/case-studies/fern-and-form/index$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/case-studies/modo$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/case-studies/modo/$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/case-studies/modo/index$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/case-studies/cart-and-craft$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/case-studies/cart-and-craft/$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/case-studies/cart-and-craft/index$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/case-studies/threadwell$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/case-studies/threadwell/$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/case-studies/threadwell/index$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/case-studies/echo-grove$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/case-studies/echo-grove/$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/case-studies/echo-grove/index$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/case-studies/root-ritual$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/case-studies/root-ritual/$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/case-studies/root-ritual/index$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/case-studies/signal-stack$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/case-studies/signal-stack/$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/case-studies/signal-stack/index$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/case-studies/after-hours$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/case-studies/after-hours/$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/case-studies/after-hours/index$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/astra$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/astra/$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/form-forward$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/form-forward/$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/northline$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/northline/$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/daybreak-brew$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/daybreak-brew/$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/roam-atlas$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/roam-atlas/$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/frame-library$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/frame-library/$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/ridekind$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/ridekind/$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/harbour-notes$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/harbour-notes/$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/studio-links$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/studio-links/$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/fern-and-form$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/fern-and-form/$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/modo$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/modo/$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/cart-and-craft$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/cart-and-craft/$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/threadwell$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/threadwell/$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/echo-grove$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/echo-grove/$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/root-ritual$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/root-ritual/$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/signal-stack$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/signal-stack/$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/after-hours$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/after-hours/$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/121g$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/121g/$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/121g/index$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/121g/index\\.html$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/case-studies/121g$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/case-studies/121g/$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/case-studies/121g/index$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/case-studies/121g/index\\.html$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/astra/index$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/astra/index\\.html$",
+      "dest": "/case-studies/astra/index.html"
+    },
+    {
+      "src": "^/beyondtellerrand$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/beyondtellerrand/$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/beyondtellerrand/index$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/beyondtellerrand/index\\.html$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/case-studies/beyondtellerrand$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/case-studies/beyondtellerrand/$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/case-studies/beyondtellerrand/index$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/case-studies/beyondtellerrand/index\\.html$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/form-forward/index$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/form-forward/index\\.html$",
+      "dest": "/case-studies/form-forward/index.html"
+    },
+    {
+      "src": "^/bigeye$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/bigeye/$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/bigeye/index$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/bigeye/index\\.html$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/case-studies/bigeye$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/case-studies/bigeye/$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/case-studies/bigeye/index$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/case-studies/bigeye/index\\.html$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/northline/index$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/northline/index\\.html$",
+      "dest": "/case-studies/northline/index.html"
+    },
+    {
+      "src": "^/birthlab-beer$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/birthlab-beer/$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/birthlab-beer/index$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/birthlab-beer/index\\.html$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/case-studies/birthlab-beer$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/case-studies/birthlab-beer/$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/case-studies/birthlab-beer/index$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/case-studies/birthlab-beer/index\\.html$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/daybreak-brew/index$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/daybreak-brew/index\\.html$",
+      "dest": "/case-studies/daybreak-brew/index.html"
+    },
+    {
+      "src": "^/epic-travel$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/epic-travel/$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/epic-travel/index$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/epic-travel/index\\.html$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/case-studies/epic-travel$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/case-studies/epic-travel/$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/case-studies/epic-travel/index$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/case-studies/epic-travel/index\\.html$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/roam-atlas/index$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/roam-atlas/index\\.html$",
+      "dest": "/case-studies/roam-atlas/index.html"
+    },
+    {
+      "src": "^/getty-images$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/getty-images/$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/getty-images/index$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/getty-images/index\\.html$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/case-studies/getty-images$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/case-studies/getty-images/$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/case-studies/getty-images/index$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/case-studies/getty-images/index\\.html$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/frame-library/index$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/frame-library/index\\.html$",
+      "dest": "/case-studies/frame-library/index.html"
+    },
+    {
+      "src": "^/justphil$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/justphil/$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/justphil/index$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/justphil/index\\.html$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/case-studies/justphil$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/case-studies/justphil/$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/case-studies/justphil/index$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/case-studies/justphil/index\\.html$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/ridekind/index$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/ridekind/index\\.html$",
+      "dest": "/case-studies/ridekind/index.html"
+    },
+    {
+      "src": "^/kapilandholly$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/kapilandholly/$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/kapilandholly/index$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/kapilandholly/index\\.html$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/case-studies/kapilandholly$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/case-studies/kapilandholly/$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/case-studies/kapilandholly/index$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/case-studies/kapilandholly/index\\.html$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/harbour-notes/index$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/harbour-notes/index\\.html$",
+      "dest": "/case-studies/harbour-notes/index.html"
+    },
+    {
+      "src": "^/linkboard$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/linkboard/$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/linkboard/index$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/linkboard/index\\.html$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/case-studies/linkboard$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/case-studies/linkboard/$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/case-studies/linkboard/index$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/case-studies/linkboard/index\\.html$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/studio-links/index$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/studio-links/index\\.html$",
+      "dest": "/case-studies/studio-links/index.html"
+    },
+    {
+      "src": "^/lumaandleaf$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/lumaandleaf/$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/lumaandleaf/index$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/lumaandleaf/index\\.html$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/case-studies/lumaandleaf$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/case-studies/lumaandleaf/$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/case-studies/lumaandleaf/index$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/case-studies/lumaandleaf/index\\.html$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/fern-and-form/index$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/fern-and-form/index\\.html$",
+      "dest": "/case-studies/fern-and-form/index.html"
+    },
+    {
+      "src": "^/mixd$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/mixd/$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/mixd/index$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/mixd/index\\.html$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/case-studies/mixd$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/case-studies/mixd/$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/case-studies/mixd/index$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/case-studies/mixd/index\\.html$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/modo/index$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/modo/index\\.html$",
+      "dest": "/case-studies/modo/index.html"
+    },
+    {
+      "src": "^/plug-digital$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/plug-digital/$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/plug-digital/index$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/plug-digital/index\\.html$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/case-studies/plug-digital$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/case-studies/plug-digital/$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/case-studies/plug-digital/index$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/case-studies/plug-digital/index\\.html$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/cart-and-craft/index$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/cart-and-craft/index\\.html$",
+      "dest": "/case-studies/cart-and-craft/index.html"
+    },
+    {
+      "src": "^/slashwork$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/slashwork/$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/slashwork/index$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/slashwork/index\\.html$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/case-studies/slashwork$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/case-studies/slashwork/$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/case-studies/slashwork/index$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/case-studies/slashwork/index\\.html$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/threadwell/index$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/threadwell/index\\.html$",
+      "dest": "/case-studies/threadwell/index.html"
+    },
+    {
+      "src": "^/snapsound$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/snapsound/$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/snapsound/index$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/snapsound/index\\.html$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/case-studies/snapsound$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/case-studies/snapsound/$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/case-studies/snapsound/index$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/case-studies/snapsound/index\\.html$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/echo-grove/index$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/echo-grove/index\\.html$",
+      "dest": "/case-studies/echo-grove/index.html"
+    },
+    {
+      "src": "^/thebodyshop$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/thebodyshop/$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/thebodyshop/index$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/thebodyshop/index\\.html$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/case-studies/thebodyshop$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/case-studies/thebodyshop/$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/case-studies/thebodyshop/index$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/case-studies/thebodyshop/index\\.html$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/root-ritual/index$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/root-ritual/index\\.html$",
+      "dest": "/case-studies/root-ritual/index.html"
+    },
+    {
+      "src": "^/tvs$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/tvs/$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/tvs/index$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/tvs/index\\.html$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/case-studies/tvs$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/case-studies/tvs/$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/case-studies/tvs/index$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/case-studies/tvs/index\\.html$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/signal-stack/index$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/signal-stack/index\\.html$",
+      "dest": "/case-studies/signal-stack/index.html"
+    },
+    {
+      "src": "^/x$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/x/$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/x/index$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/x/index\\.html$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/case-studies/x$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/case-studies/x/$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/case-studies/x/index$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/case-studies/x/index\\.html$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/after-hours/index$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "src": "^/after-hours/index\\.html$",
+      "dest": "/case-studies/after-hours/index.html"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/404/index.html",
+      "status": 404
+    }
+  ]
 }

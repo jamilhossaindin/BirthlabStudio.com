@@ -2,16 +2,21 @@
   "name": "birthlab-studio",
   "version": "1.0.0",
   "private": true,
-  "description": "Birthlab Studio website",
+  "description": "BirthLab Studio website",
   "scripts": {
-    "start": "serve -l 3000",
-    "dev": "serve -l 3000",
+    "start": "node scripts/server.mjs",
+    "dev": "node scripts/server.mjs",
     "update-text": "node scripts/update-text.mjs",
     "update-asset": "node scripts/update-asset.mjs",
-    "find-asset": "node scripts/find-asset.mjs"
+    "find-asset": "node scripts/find-asset.mjs",
+    "security:headers": "node scripts/refresh-security.mjs",
+    "security:test": "node --test scripts/security.test.mjs",
+    "sync:studio-pages": "node scripts/sync-studio-pages.mjs",
+    "sync:startup": "node scripts/sync-startup.mjs"
   },
   "dependencies": {
-    "serve": "^14.2.4"
+    "serve": "^14.2.4",
+    "serve-handler": "6.1.7"
   },
   "overrides": {
     "compression": "^1.8.2"

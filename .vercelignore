@@ -1,0 +1,12 @@
+.git/
+.vercel/
+.agents/
+node_modules/
+docs/
+scripts/
+*.md
+.env*
+.npmrc
+*.log
+*.bak
+*.birthlab-new

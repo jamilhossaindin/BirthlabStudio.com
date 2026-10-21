@@ -1,0 +1,3253 @@
+{
+  "brands": [
+    {
+      "slug": "astra",
+      "name": "Astra",
+      "ink": "#102c33",
+      "paper": "#e5f5df",
+      "accent": "#a7ef4a",
+      "secondary": "#5b8c78",
+      "tag": "New ideas. Clear direction.",
+      "sector": "VENTURE STUDIO",
+      "shape": "star"
+    },
+    {
+      "slug": "form-forward",
+      "name": "Form Forward",
+      "ink": "#29204f",
+      "paper": "#f5e9d7",
+      "accent": "#ff5a36",
+      "secondary": "#dfb8fc",
+      "tag": "Make room for new thinking.",
+      "sector": "CREATIVE CONFERENCE",
+      "shape": "grid"
+    },
+    {
+      "slug": "northline",
+      "name": "Northline",
+      "ink": "#202823",
+      "paper": "#ece7d8",
+      "accent": "#deef75",
+      "secondary": "#ff765b",
+      "tag": "A sharper point of view.",
+      "sector": "CREATIVE PRACTICE",
+      "shape": "north"
+    },
+    {
+      "slug": "daybreak-brew",
+      "name": "Daybreak Brew",
+      "ink": "#122e48",
+      "paper": "#fff0d3",
+      "accent": "#ff842d",
+      "secondary": "#e8b857",
+      "tag": "A brighter kind of brew.",
+      "sector": "CRAFT BEVERAGE",
+      "shape": "sun",
+      "photo": "daybreak"
+    },
+    {
+      "slug": "roam-atlas",
+      "name": "Roam Atlas",
+      "ink": "#14342e",
+      "paper": "#eee9d6",
+      "accent": "#d1f86a",
+      "secondary": "#f19c76",
+      "tag": "Follow a different path.",
+      "sector": "ADVENTURE TRAVEL",
+      "shape": "landscape"
+    },
+    {
+      "slug": "frame-library",
+      "name": "Frame Library",
+      "ink": "#622738",
+      "paper": "#f4eee1",
+      "accent": "#ffa274",
+      "secondary": "#b0bda4",
+      "tag": "A different way to see.",
+      "sector": "VISUAL ARCHIVE",
+      "shape": "frames"
+    },
+    {
+      "slug": "ridekind",
+      "name": "Ridekind",
+      "ink": "#202522",
+      "paper": "#f2f4e7",
+      "accent": "#d3ff51",
+      "secondary": "#7795ef",
+      "tag": "One more mile. Together.",
+      "sector": "COMMUNITY CYCLING",
+      "shape": "cycle"
+    },
+    {
+      "slug": "harbour-notes",
+      "name": "Harbour Notes",
+      "ink": "#1b4061",
+      "paper": "#f8ecd4",
+      "accent": "#ef8a62",
+      "secondary": "#81b9b3",
+      "tag": "Small stories by the water.",
+      "sector": "ILLUSTRATION COLLECTION",
+      "shape": "harbour"
+    },
+    {
+      "slug": "studio-links",
+      "name": "Studio Links",
+      "ink": "#3a2b51",
+      "paper": "#f4e9e9",
+      "accent": "#c0f58c",
+      "secondary": "#bba2ff",
+      "tag": "Your corner of the internet.",
+      "sector": "CREATOR PROFILE",
+      "shape": "links"
+    },
+    {
+      "slug": "fern-and-form",
+      "name": "Fern & Form",
+      "ink": "#31412a",
+      "paper": "#eee9d8",
+      "accent": "#a8bd85",
+      "secondary": "#c8aa75",
+      "tag": "A daily return to nature.",
+      "sector": "BOTANICAL CARE",
+      "shape": "leaf",
+      "photo": "fernform"
+    },
+    {
+      "slug": "modo",
+      "name": "Modo",
+      "ink": "#1d3285",
+      "paper": "#f0eddf",
+      "accent": "#ff8254",
+      "secondary": "#b9cbb1",
+      "tag": "Good thinking. Made visible.",
+      "sector": "DIGITAL DESIGN",
+      "shape": "blocks"
+    },
+    {
+      "slug": "cart-and-craft",
+      "name": "Cart & Craft",
+      "ink": "#3c2349",
+      "paper": "#f7eee0",
+      "accent": "#f5ad6c",
+      "secondary": "#b7c78d",
+      "tag": "Designed for everyday commerce.",
+      "sector": "COMMERCE STUDIO",
+      "shape": "cart"
+    },
+    {
+      "slug": "threadwell",
+      "name": "Threadwell",
+      "ink": "#253e3b",
+      "paper": "#eceee4",
+      "accent": "#e9a873",
+      "secondary": "#a9bead",
+      "tag": "Make room for better work.",
+      "sector": "TEAM COMMUNICATION",
+      "shape": "threads"
+    },
+    {
+      "slug": "echo-grove",
+      "name": "Echo Grove",
+      "ink": "#172c39",
+      "paper": "#e5f1d6",
+      "accent": "#c9ee71",
+      "secondary": "#b5a0da",
+      "tag": "Listen beyond the obvious.",
+      "sector": "SOUND STUDIO",
+      "shape": "sound"
+    },
+    {
+      "slug": "root-ritual",
+      "name": "Root Ritual",
+      "ink": "#663e36",
+      "paper": "#fff0dc",
+      "accent": "#ed9b75",
+      "secondary": "#b3bf8b",
+      "tag": "Care, in your own way.",
+      "sector": "PERSONAL CARE",
+      "shape": "bottle"
+    },
+    {
+      "slug": "signal-stack",
+      "name": "Signal Stack",
+      "ink": "#251f41",
+      "paper": "#ece2ce",
+      "accent": "#d5ef6e",
+      "secondary": "#eb9ab9",
+      "tag": "Tune into the unexpected.",
+      "sector": "INTERACTION STUDY",
+      "shape": "signal"
+    },
+    {
+      "slug": "after-hours",
+      "name": "After Hours",
+      "ink": "#291b38",
+      "paper": "#f6e7e8",
+      "accent": "#f59ec1",
+      "secondary": "#eead75",
+      "tag": "A little out of the ordinary.",
+      "sector": "MOTION EXPERIMENT",
+      "shape": "orbit"
+    },
+    {
+      "slug": "studio",
+      "name": "BirthLab Studio",
+      "ink": "#183b91",
+      "paper": "#f3eedf",
+      "accent": "#a9c2fa",
+      "secondary": "#e4b08b",
+      "tag": "Ideas into form.",
+      "sector": "IDENTITY / DIGITAL / MOTION",
+      "shape": "blocks",
+      "photo": "studio"
+    },
+    {
+      "slug": "404",
+      "name": "Lost in Orbit",
+      "ink": "#1f2e53",
+      "paper": "#f3ead9",
+      "accent": "#f9ab74",
+      "secondary": "#d1b9e9",
+      "tag": "A small detour. A new direction.",
+      "sector": "BIRTHLAB STUDIO",
+      "shape": "orbit"
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/404/404-spaceman-animation.mp4",
+      "project": "Lost in Orbit",
+      "kind": "video",
+      "width": 720,
+      "height": 720,
+      "duration": 5.5,
+      "sha256": "68509f0af8a7428716f9fcfb6f2840ffec74082b05e50bc9809b2f0be47f7940"
+    },
+    {
+      "path": "assets/404/404-strawberry-animation.mp4",
+      "project": "Lost in Orbit",
+      "kind": "video",
+      "width": 1430,
+      "height": 1080,
+      "duration": 5.5,
+      "sha256": "2ee82f872418f73d3e75c226d83cefd0b507abcfd145fc1acdaf8d2cfdc03cd8"
+    },
+    {
+      "path": "assets/about/about-founder-reel.mp4",
+      "project": "BirthLab Studio",
+      "kind": "video",
+      "width": 1600,
+      "height": 892,
+      "duration": 5.5,
+      "sha256": "3273591c7bd18dbe10e534971697ef93b67a44111ef769adf6a9fae6df90cc36"
+    },
+    {
+      "path": "assets/about/studio-study-01.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1024,
+      "height": 682,
+      "sha256": "6a9689fdedbefaf03815131a4be5ae78a91bd2c426f456e495c8040632d293b4"
+    },
+    {
+      "path": "assets/about/studio-study-02.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 566,
+      "height": 566,
+      "sha256": "d2fe98ed5eac3e0051372cb5dae22e9848744a2d2c25c42d40f9c2e7ffcb5b68"
+    },
+    {
+      "path": "assets/about/studio-study-03.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 688,
+      "height": 854,
+      "sha256": "0f0b0c0b61ae551e814ae0f37cdf86164ce6486be42e0096e1c482ff04327855"
+    },
+    {
+      "path": "assets/about/studio-study-04.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "631f1cfb24a364058514f54e04b5f10ebec1e7a07582622ccdd935046b3bf0df"
+    },
+    {
+      "path": "assets/about/studio-study-05.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1500,
+      "sha256": "281f1b3d1e0d6ea6d420dc955994c998eee346295068fcbcd5e4d03acadbb604"
+    },
+    {
+      "path": "assets/about/studio-study-06.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 790,
+      "height": 1000,
+      "sha256": "dec631720497211537443b9bc6cc4bd4ec9995d5787bb6e000507c2c6fc036d7"
+    },
+    {
+      "path": "assets/about/studio-study-07.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1500,
+      "sha256": "60817ad41c522ad6b0287e767bf054a56fcac9a07c2cbb2ad23e979058c73a95"
+    },
+    {
+      "path": "assets/about/studio-study-08.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1500,
+      "sha256": "b209ab32a55df9f55ff1b897b5901c0a79c93a82f0cf87d4c2e7af3359b2bf12"
+    },
+    {
+      "path": "assets/about/studio-study-09.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1500,
+      "sha256": "fca57c8aa02b932d381e68b95d2f8ae992e57d97c471b7a6452e0abd8dedc459"
+    },
+    {
+      "path": "assets/about/studio-study-10.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1500,
+      "sha256": "e5bfe16e386d1a747a28c300161842d73b55f76b690cf1c3bd8acd13be4a6f0d"
+    },
+    {
+      "path": "assets/about/studio-study-11.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1500,
+      "sha256": "3605d2b138236d6db6034a84bd16d7f3774c08e0266ad35cb4367d5b47779044"
+    },
+    {
+      "path": "assets/about/studio-study-12.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "fcc0e7025db2d6005ca7bf53e58aa4aafcc26e1faf63b247f62fa2a2588349e4"
+    },
+    {
+      "path": "assets/about/studio-study-13.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "afbdc25c8d9d874fd8421259f871f2922f568d31dbfc8d17faae4e173f6de756"
+    },
+    {
+      "path": "assets/about/studio-study-14.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "2f5deb299e92610bcf87a71bc87dc7e3c6db455f79e90ceb5dac363f9ff69469"
+    },
+    {
+      "path": "assets/about/studio-study-15.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "fcc0e7025db2d6005ca7bf53e58aa4aafcc26e1faf63b247f62fa2a2588349e4"
+    },
+    {
+      "path": "assets/about/studio-study-16.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "631f1cfb24a364058514f54e04b5f10ebec1e7a07582622ccdd935046b3bf0df"
+    },
+    {
+      "path": "assets/about/studio-study-17.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "00fc33b967ca73c7cecf896bf9159e2284bd96e6a5b54df247ae6a722b81c6b5"
+    },
+    {
+      "path": "assets/about/studio-study-18.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "ca75322df8749344ede25fb19f2be45520ce02371d8db691eff3d32281e60f07"
+    },
+    {
+      "path": "assets/about/studio-study-19.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "afbdc25c8d9d874fd8421259f871f2922f568d31dbfc8d17faae4e173f6de756"
+    },
+    {
+      "path": "assets/about/studio-study-20.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "fcc0e7025db2d6005ca7bf53e58aa4aafcc26e1faf63b247f62fa2a2588349e4"
+    },
+    {
+      "path": "assets/about/studio-study-21.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1500,
+      "height": 1979,
+      "sha256": "631f1cfb24a364058514f54e04b5f10ebec1e7a07582622ccdd935046b3bf0df"
+    },
+    {
+      "path": "assets/about/studio-study-22.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 936,
+      "height": 941,
+      "sha256": "a9fb8af4f2a503cf83761e0404edc63d78b78b3a75451b8684f6da271c6712dc"
+    },
+    {
+      "path": "assets/about/studio-study-23.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 600,
+      "height": 600,
+      "sha256": "4494a46514c644767b59cd091a839f80879650634b936d7fb0effa06cbc3a79d"
+    },
+    {
+      "path": "assets/about/studio-workspace-desk.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 2400,
+      "height": 976,
+      "sha256": "c28b6728f362a83e64deeb08279ebf44e20234aad9202f9568b89596dff19e56"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-01.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2078,
+      "height": 2000,
+      "sha256": "deb13888d32bcef67233e8e24e5617cbb486e49e42d6e405de38d6513342375d"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-02.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2078,
+      "height": 2000,
+      "sha256": "e9439d72b5c7e19f42ab7788f7eb6ba6c441436555f0142474d8673477b5454c"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-03.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 1486,
+      "sha256": "a0133734aec56ff33c38116df4e8abe66e90a2cf21dd0c27cdfa19e65d955f91"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-04.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 1780,
+      "sha256": "e8bd659ee9d200f70bcc66357db653b0267f58f8983f7a1e5d8a65b7959c2c2f"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-05.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 4939,
+      "sha256": "feb4150ab7702167b5dd82283c289046486fb29fc4ccc5e7c60c99d600c1e351"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-06.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 1385,
+      "sha256": "f8c1b7b4f8b7164bc1c168058bd42a92f1c385690c5edee55b7fe0df7afe314e"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-07.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 1745,
+      "sha256": "27917328a772b5fadc964aabba512d5ea30e7b23790a05d585bf0dab3e69f37f"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-08.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 1362,
+      "sha256": "765acb6a7e9a1a0a655bbc6b7931b4a9615947d0d55895c9de072b8e0eb9cb57"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-09.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 5372,
+      "sha256": "c4d53873a362a721eb803a6b9121df810d06422cb8d06bb0da827f5a3ee4a1ed"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-10.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 5372,
+      "sha256": "c4d53873a362a721eb803a6b9121df810d06422cb8d06bb0da827f5a3ee4a1ed"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-11.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 4939,
+      "sha256": "feb4150ab7702167b5dd82283c289046486fb29fc4ccc5e7c60c99d600c1e351"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-12.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2078,
+      "height": 2000,
+      "sha256": "0abbd3276ee144c3dbf56dd5558556680f5486a07dec1424dc6dca9859f671b2"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-13.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2078,
+      "height": 2000,
+      "sha256": "df6cc4bdccd8029f7d41faf5e14450004d0031c3ee2d50eae8583cb87292029a"
+    },
+    {
+      "path": "assets/case-studies/astra/astra-image-14.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 2400,
+      "height": 1482,
+      "sha256": "be1761b74a2b69d0f801e8aae2ce8bfa204b5751100ebd0a9c1311dcc82bc3fb"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-01.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "d4ca58e8f0e7ffa6cc5dc8e7435e76f7f999e59fa247129c168132f1cdc271c7"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-02.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "c7cbd8a0762450226bea8b8c78232850ca11898f4bfadb405d55221b21f0390e"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-03.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "a28538797f7c531fa069eb3dc79589561e54b261bffe59f63e3dd37963f89f87"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-04.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "116493618a79cd801a6c82c2fd7005a4b4aaf17ebe40331dc4e724c079589d09"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-05.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 3240,
+      "sha256": "cecbc79d78383ce3f06da1291d5aa39b49d8d9239a8e35b1eb08b8a8703b9fd2"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-06.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1605,
+      "sha256": "da55b140439b6bb2cbde3b25e33e48210212659811d6564aafbfcc6658de6dd1"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-07.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "0d8e7ac89105c1efdccdd692f4c873fd36fbe2db66f912068e2707a2f7a5006e"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-08.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 512,
+      "height": 342,
+      "sha256": "d5582b876d79694477487da129471444ef816c4417c5ceb92989b234582b9294"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-09.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 1024,
+      "height": 685,
+      "sha256": "8a138981f767ba59b4c96bf337654aad68adcc6c1edbf2cde59b4a670c52f7de"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-10.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "7bbadb8ed62e7a0b2bf91b9562a2f91aa61aebb96d7b682963119dc865a69ab2"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-11.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "8c9afe355603cfc9ba0d4bf075683a47d769558464b2038cce0e6cc7c0fab7f6"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-12.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "ab8b04ac38a66ee6c21773d073cab8fdbebc17702a1ce92c31482f40b7d6261a"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-13.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "c2ea3136c6567149b7154be66f572287229d250a1636458101103d7e66f60b5f"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-14.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 3240,
+      "sha256": "fec569c31235c52c7244249b7b836f03c1ff6bc62928ca319cdf29b03b050823"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-15.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "77474259794435b6c314f74e974220ca5565f59f63fef0cac490adbaaa72ae5d"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-16.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 3240,
+      "sha256": "4474f11387724512fac1bec85178d22b2b32eee9c722e433106b43bec62b4906"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-17.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 3240,
+      "sha256": "1d444065fab6474cbd70c8df5653113912e3cb53ed9e26155704b34d37eb0e9f"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-18.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1350,
+      "sha256": "53323afcb70f88cde7127361ac970aaa9ddf7f844500d2e06cb91111bf08740d"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-19.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "399f0986de20858cf669cd1a3d913ae68969b84e05b21f1edcfb5fe51945dde9"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-20.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "75bc3815b54a6e4a8d04778fc58a53026c70968c79f6d1fcd016555bf916e060"
+    },
+    {
+      "path": "assets/case-studies/form-forward/form-forward-image-21.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 2048,
+      "height": 1365,
+      "sha256": "40af5cf6a34e71f195fadbce758d9c8d8ab022017ad5a3904db7bb428168647e"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-01.png",
+      "project": "Northline",
+      "kind": "image",
+      "width": 364,
+      "height": 378,
+      "sha256": "5f7ea45ab0fefacc7d4713a94b6e241ae27ecc68fdf5b0f7ff4f15aa5c03ecb5"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-02.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 1500,
+      "height": 2497,
+      "sha256": "c7ba86952457f39ef0bc6f0c32518e059eccbd788d6195bcd220283976c843d3"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-03.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 2400,
+      "height": 1350,
+      "sha256": "e0c77d03947035db2c80007ef864c73d190eadf35955931d80a265913f566d73"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-04.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 1500,
+      "height": 2497,
+      "sha256": "68bc063b049453c35884af9c148f32b7ce74b8ce090d61aa41eedeb3635c31db"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-05.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 1500,
+      "height": 2160,
+      "sha256": "dd84bd03ad2ba7cd833c40b4680ee1e8d0adbc1f76f808edbeac1496d0c8e511"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-06.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 1500,
+      "height": 2217,
+      "sha256": "ef739c3d57d07a7d2b6fbf92d20d89ffd9281bd732b897837ae6e88d19e07853"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-07.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 1500,
+      "height": 2448,
+      "sha256": "ed83316214b5770782f90ec19934eb6607002e37257a4dac514bda9b0ed62c65"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-08.svg",
+      "project": "Northline",
+      "kind": "animated-vector",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "87794f2fd3fa4d4de8f6da66084f520c82a5826394f6e9ae7db5d4ceadde60c0"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-09.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 1500,
+      "height": 2217,
+      "sha256": "e1138915bde9dcde9161030a89f1664818c218da0a10be6cde024cf8d73b80d2"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-10.svg",
+      "project": "Northline",
+      "kind": "animated-vector",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "db77a065d9cf425f6e6be7dcd935ee3b55711a18730aa8f053d7248dbb84dbdb"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-11.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 1500,
+      "height": 2448,
+      "sha256": "43a9cf55d69ea82397b0d386100caaea82620cb04a61598d8fa05ef69b649783"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-12.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 1500,
+      "height": 2217,
+      "sha256": "5c39251c5ccb69df4ea50bfaa30a8b422655f5cdb78260c7140ad1e5bf48cd42"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-13.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 1440,
+      "height": 1920,
+      "sha256": "373c9e93f00dbaeb6c0872df918bfc87282c3ade4bcba4baf8ba95aa80a36607"
+    },
+    {
+      "path": "assets/case-studies/northline/northline-image-14.jpg",
+      "project": "Northline",
+      "kind": "image",
+      "width": 2400,
+      "height": 1382,
+      "sha256": "ca0021bfdd2f30ea4ad536dd857ff0512164dd02c88ca6c228bb82b252def96c"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-02.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2010,
+      "sha256": "e6a5dd87921e669f61a5b62de02c6d4576e1fbbb1c5ec5434257ebc1ffb0db9b"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-03.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2010,
+      "sha256": "04c5db032be6b8edfc921083f23065f680963f4c007571cdfed684d97213c076"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-04.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 2400,
+      "height": 1335,
+      "sha256": "eab4ca0d52010ce5ce2b759be6abdcd9170f725794b0b6d84db9308ddcce049d"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-05.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1778,
+      "height": 2454,
+      "sha256": "0a2b70f06d8727b405087f784096128b05b571b5ab09a34c82d59a6dcbd1cc66"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-06.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1778,
+      "height": 2454,
+      "sha256": "16eae93241f21871321075630ff6332ffaac98762923588851fb0dcbedc83aea"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-07.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1697,
+      "height": 2430,
+      "sha256": "d38ab258e4ce3bbaef372ef54f546ef65ed0edd531ed8a802116efd57fbb3aa8"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-08.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1697,
+      "height": 2430,
+      "sha256": "5493079cf79e24e9c2ff7037cd48aa98c81636909551f6160c7edea112ee6d81"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-09.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 2400,
+      "height": 1525,
+      "sha256": "32373c6ece167b2d4af98741a8c0b5a11e2dda9d4f8a3127b3cf4803ccc007e4"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-10.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "4fffe381ae1feccbe3f997bf984f0eec3665b1d5b397fe9f87a0ee35f32f56ff"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-11.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1800,
+      "height": 2520,
+      "sha256": "4541ce64478a7a18b6b1de867ecc5eaf3251e9fef35f0de0591a629d4d3a6346"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-12.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1800,
+      "height": 2520,
+      "sha256": "1f3f6ec77407008d4c074c1cf825a5e9f679e0b623f08b8c6d2d54794b3c3ef1"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-13.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 2284,
+      "height": 1500,
+      "sha256": "0de9b38d471c3872cebec67426edabc238f6e3699760ff31b78bc76657ca2267"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-14.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "088e6611e3a71b3166d47c76d7ec62f002d6bfa2d9e2b10d9b8df2924b7678b8"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-15.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 2400,
+      "height": 3767,
+      "sha256": "3f8156ee9385c696abe34d03e970f37cb664252e409dc7fe4de1073078826d24"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-16.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2010,
+      "sha256": "d4c8b7ee3d30dabe6974338925ba27f308980df832880e66e81cc718e68479a1"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-17.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2010,
+      "sha256": "55e77fa60c1d03aafce93df6ecefd3d965dbc1f6b8fd7f5b1e5aabedf021df68"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-18.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2148,
+      "sha256": "c41bc9801ceda73c62e062be16727dfe6142f0937a7554a83ec1ca810c2d5310"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-19.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2148,
+      "sha256": "cf869ba453675e51f53ea00f195c25289127dc35df2893707484a5752f193314"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-20.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2148,
+      "sha256": "7be64ab1b8a68441d3b5f80a50c4e69d1e98662323f26984a3a05b8391f3c436"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-21.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2148,
+      "sha256": "9e74bfe2b2e450eeea99c5a47d06aea2dc5c0ba923fe6d5872d164b0f15291c4"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-22.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2110,
+      "sha256": "0db9300b6a634ca859d84ba7c929c5f4a883a395da4d59ec5bec4b8ffd786ec7"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-23.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1500,
+      "height": 2110,
+      "sha256": "c1f889bc7a23c0dbd9f783698464cb7f44e9bfd0a0ef60649e565ea8f846260e"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-image-24.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 2400,
+      "height": 3216,
+      "sha256": "1255d5ddf59b616d01ba10b806d9803abe0442bb1572e9e385d0a528d101493e"
+    },
+    {
+      "path": "assets/case-studies/daybreak-brew/daybreak-brew-packaging-animation.mp4",
+      "project": "Daybreak Brew",
+      "kind": "video",
+      "width": 1280,
+      "height": 720,
+      "duration": 5.5,
+      "sha256": "aeaa38be8bd72ac3493317dd15682f084fe977d32e8d401b3e79e0d7363c7e79"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-01.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1500,
+      "height": 2143,
+      "sha256": "b6d1ce58cefd2e7e4cad8d0601894c7f3199bcb07994a774911dd59dd106f0d5"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-02.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "94ab3b57a5bc18e242c4fa39cddde73b7fa3057398009cdb26720a44485a682f"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-03.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "0fa4f57aec590d7a684c4624d7c8183cbe8ddd497afc8eaf05152cecefcf1f9e"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-05.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1500,
+      "height": 5570,
+      "sha256": "55c4c3597f6811702540241a5aeb009310b1a81dce34839576b80e3d841d494b"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-06.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 2400,
+      "height": 1157,
+      "sha256": "16efe05d188eea8b6e2548c70b374a515fe49303445b42248751e49f6b24b38f"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-07.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1500,
+      "height": 2143,
+      "sha256": "f294b4c030154217d6a03b581efe0305c6abe6954ecb966cd6b5d48393614051"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-08.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "7d137448e379095a83f1fb31ba7bfd8cce00972e49ba202312f19c33ab958d4b"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-09.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1500,
+      "height": 2986,
+      "sha256": "5a8ddcb1908ee9d04e231237b9c4e4a7e4153fd91effea9cb13cad0d292ace2d"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-11.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1500,
+      "height": 3123,
+      "sha256": "14f5b79f5566c26e34597dbb259a5d253f8dbd8463feb1a4f4b97a5fa507b05f"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-12.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "acbd8dbc49f8b7625608bdeeb66bc64e6fa679e44b4f962e6a3d0ca3ae072194"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-13.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1500,
+      "height": 997,
+      "sha256": "e859cb8a0c340f5b0e00f6847f5affb19c88c42733901743d76dcd4bf1947e9b"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-14.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1800,
+      "height": 3439,
+      "sha256": "a38fba665b869c929ba209f2045ce9acfb3c5d7e1e77868f4ecda35d3f8dd564"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-15.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1500,
+      "height": 1500,
+      "sha256": "4982bed14dff4bb844c9f33b434c894e8edd2fb791342d3ee0103a07b488fc38"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-16.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "7d137448e379095a83f1fb31ba7bfd8cce00972e49ba202312f19c33ab958d4b"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-18.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 2400,
+      "height": 1157,
+      "sha256": "e362295d3c8800795dd42e641157c6780fb426d2ed071fdf357689b31abd5b79"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-image-19.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "0fa4f57aec590d7a684c4624d7c8183cbe8ddd497afc8eaf05152cecefcf1f9e"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-video-04.mp4",
+      "project": "Roam Atlas",
+      "kind": "video",
+      "width": 1430,
+      "height": 1080,
+      "duration": 5.5,
+      "sha256": "63109b4e4343d0a7ba2d935d8d8de8517b5267cdaf21c369d6c4615143bfc4bb"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-video-10.mp4",
+      "project": "Roam Atlas",
+      "kind": "video",
+      "width": 1430,
+      "height": 1080,
+      "duration": 5.5,
+      "sha256": "63109b4e4343d0a7ba2d935d8d8de8517b5267cdaf21c369d6c4615143bfc4bb"
+    },
+    {
+      "path": "assets/case-studies/roam-atlas/roam-atlas-video-17.mp4",
+      "project": "Roam Atlas",
+      "kind": "video",
+      "width": 720,
+      "height": 544,
+      "duration": 5.5,
+      "sha256": "333cb0b5c18e716e485007f910956889078dc64e0687155eb4ea3dbc8b49e550"
+    },
+    {
+      "path": "assets/case-studies/frame-library/frame-library-image-01.jpg",
+      "project": "Frame Library",
+      "kind": "image",
+      "width": 2400,
+      "height": 3427,
+      "sha256": "d4218dbe070c17abaabb0a5aa70992bcf253919250c750d3a56199923de01dfc"
+    },
+    {
+      "path": "assets/case-studies/frame-library/frame-library-image-02.webp",
+      "project": "Frame Library",
+      "kind": "image",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9f15b375fa05201d5e560a30f063587bafb98306e363c5293a37933e208862e1"
+    },
+    {
+      "path": "assets/case-studies/frame-library/frame-library-image-03.jpg",
+      "project": "Frame Library",
+      "kind": "image",
+      "width": 2400,
+      "height": 3427,
+      "sha256": "66775e76bdf49fb08c12de1b8c08e8e43338a7033d2627bc0af61fcdec447873"
+    },
+    {
+      "path": "assets/case-studies/frame-library/frame-library-image-04.jpg",
+      "project": "Frame Library",
+      "kind": "image",
+      "width": 2400,
+      "height": 3427,
+      "sha256": "72774d37df522d80a4957d8f8d595d6bd712fe34d0fd2c9de9e7a72c22ff7ff0"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-01.png",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1510,
+      "height": 2136,
+      "sha256": "d49fcabfaa1bb54ec6373637189d6e5ca24580599abeb44dfb78204f77636598"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-02.png",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1510,
+      "height": 2136,
+      "sha256": "804906b9584192eda89c28354cef44453c27b4f4211f1854ee280ab009aac17b"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-03.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1851,
+      "height": 6000,
+      "sha256": "260318bd9d262f9ba860c39b8abd6736a21872479aa53bcd65d15d0ff258c1b0"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-04.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "f1fe68a2803b6cd6b02356d80784f1c07b25899d7ec378cc8bf116cca2aeeb3a"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-05.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "d865a6c1b5453ea5bb56e145aff1a1a8eb4f5bcdf450fce13e370ef259a61840"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-06.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 2278,
+      "sha256": "5896877eeec76f7a108663d17767f3ad8457eaf2ca3fae4f130d4bca1fd5f35b"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-07.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "f3417893628ce6417c0671dde081fc8043e6948c814b7dd78434a739b443e346"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-08.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "819b4dcc6758da38693fdfa90b77e3d240a709e7122b3108e7598e4be6dd71e5"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-09.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "56f2b27fa6583ffce4f2ad3068a4839bac2a3b480df1cd48e4e13aba7a27c93f"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-10.png",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1510,
+      "height": 2136,
+      "sha256": "6d8781fe477883a606c711cc67a8d95dd1d07fa773ca438c112f8a28fdc9900f"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-11.png",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1510,
+      "height": 2136,
+      "sha256": "f2431c9ec3bdf90a2a80fe4b3193e8b7d139b424f7c34808cea890f7b68051e8"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-12.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2048,
+      "height": 1365,
+      "sha256": "9410bc64a74668da44b1225b54bec99a7e30e0aabbabee72da14269e30a278bf"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-13.png",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1510,
+      "height": 2136,
+      "sha256": "26fcbb1fe62250e0e57b6d352b4317a7f7c8b8eaa088c5b3d30fe499c055dbf6"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-14.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 1920,
+      "sha256": "3d4436be4f8d21c39321e0c16b764ba793a335222bbfd308af8eb614397860f8"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-15.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "f3417893628ce6417c0671dde081fc8043e6948c814b7dd78434a739b443e346"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-16.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2048,
+      "height": 1212,
+      "sha256": "99fdd4e982fe54e1c2b2a9d8c4010b04900856918d3db278fc32d5fe3b5892a3"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-17.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 1961,
+      "sha256": "6a5a919bede80ad26fc751ef7713e831315291bf67101e076b14db99236c9608"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-18.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 512,
+      "height": 418,
+      "sha256": "f95ac860a909253f3fefa06026ed8053da6cbd44f16ab543775d5acc13df34fb"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-19.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "b1b6d348a5117cdb0dd88d294570ed04fdc5ab19e9602378b2cc6657cc5effa1"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-20.png",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1510,
+      "height": 2136,
+      "sha256": "bbd3853dfe7ba67e444b9fc8635c1e8c8539473fc28454499d38ecfe6d771c23"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-21.png",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1510,
+      "height": 2136,
+      "sha256": "26fcbb1fe62250e0e57b6d352b4317a7f7c8b8eaa088c5b3d30fe499c055dbf6"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-22.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 632,
+      "height": 2048,
+      "sha256": "640a6247944594af0c2cc90c9c58e9b410a8510b43034690fb5f2d1847f6848d"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-23.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "f3417893628ce6417c0671dde081fc8043e6948c814b7dd78434a739b443e346"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-24.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 1628,
+      "sha256": "fd63ca60ce06f81d6ee2b2dfadbf47f3b9a9f261d190345ce214afbd37da29fe"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-25.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "7d011537b14dca23c07bc578a633e92b34b29bbb99228bb9db61a11ff162d348"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-26.png",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1510,
+      "height": 2136,
+      "sha256": "66cd4852a48f57ca6a5276ebcba6ae486295f65fe571518e81ef6de575646897"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-27.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 3374,
+      "sha256": "e53caeb2039fac9bedfd54556c099165af575c24d8ed0c67e8bd55c35d7d2b45"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-28.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 2278,
+      "sha256": "bfe941f17b526eb85c41d59dc382c74a7cc958295a2adc366c946703235f6def"
+    },
+    {
+      "path": "assets/case-studies/ridekind/ridekind-image-29.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "239e9f9d9f39c1f1b39d2120835128374ce001b40d5d45ac28dac58a9589fe13"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-01.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "d488e61a4538324cf4530b3cc95271ec9e58b2fc154f73f31d4a7de59a9635e7"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-02.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "dd30dd7590e1923b3e917b04a2af1a854da0dfa325e531f60f59c30a95d946a2"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-03.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "949c1c2fd81d0320910096718bcc5d73e23ed8ceb25eea0ff0720e9e69c36948"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-04.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "6bf278b7541c6db1e4ae0a2642c7a4d29de4ad213907a348043d35f133259867"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-05.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "90c3cd7b20ac12ffdda344b0dabc5e3c3acdc276d096da7334c757eeefb95213"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-06.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "b41648eee75fef16526cb7885d5500f2d0538ca361208663dbb20938d18cd9e6"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-07.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "e5fc5d29b30e4c996dce804945846625c72697b69bc3f919b9135adc9d4e2277"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-08.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "67cfb75a0096fde5200e5c87e0534eff906fa39a423c2606dc4884d98322fa76"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-09.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "8469fc1cb62d322021fa1a4565f894a630cd6206131ba2630aef0e2c9b6f2401"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-10.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "82f0cd1907c4d6e7c99bf096663b11d24749afa10fe29ae1086ac1f29c80159b"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-11.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "949c1c2fd81d0320910096718bcc5d73e23ed8ceb25eea0ff0720e9e69c36948"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-12.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "4731aaa6dac87f7d72504f91cf9058b41dd8208340851b3faebd796f755ff4a3"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-13.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "90c3cd7b20ac12ffdda344b0dabc5e3c3acdc276d096da7334c757eeefb95213"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-14.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "9432dd396921b964b690f4c6e838de5c6ba24b1d542aa4036366ce3f25629092"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-15.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 2652,
+      "sha256": "711dc04e68e369808eb1f849975242736b67decadc68ab3fca28842532725e26"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-16.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "67cfb75a0096fde5200e5c87e0534eff906fa39a423c2606dc4884d98322fa76"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-17.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "d488e61a4538324cf4530b3cc95271ec9e58b2fc154f73f31d4a7de59a9635e7"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-18.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "dcae5454e62a4e59872b1e696aefb7eae6b1016c893e9de1c93e59cf7b1e0184"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-19.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "949c1c2fd81d0320910096718bcc5d73e23ed8ceb25eea0ff0720e9e69c36948"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-20.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "4731aaa6dac87f7d72504f91cf9058b41dd8208340851b3faebd796f755ff4a3"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-21.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "90c3cd7b20ac12ffdda344b0dabc5e3c3acdc276d096da7334c757eeefb95213"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-22.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "b41648eee75fef16526cb7885d5500f2d0538ca361208663dbb20938d18cd9e6"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-23.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "e5fc5d29b30e4c996dce804945846625c72697b69bc3f919b9135adc9d4e2277"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-24.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 3512,
+      "sha256": "67cfb75a0096fde5200e5c87e0534eff906fa39a423c2606dc4884d98322fa76"
+    },
+    {
+      "path": "assets/case-studies/harbour-notes/harbour-notes-image-25.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "0b6a64554fdc53b828feca91deed8d23f17ec81202d3ee96a39c1da3ad197782"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-01.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "cc78482ac8dffea1788f19398285a55a60d97b5a451651723a087901dd22e78f"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-02.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1964,
+      "height": 1149,
+      "sha256": "f76bcad45893b067719cf43c1880180cc6176fe8ba7491167c2a1e9254458e03"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-03.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1964,
+      "height": 1149,
+      "sha256": "a5195a4e16bd709d1a2ddaf4f37888d83d38fb577347e2b34b51241ff8659d80"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-04.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "e9feba4de6bc1ec9ad72e26e543e2bb9c9a56a96c22be790f1a3dc5dfa0bcc44"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-05.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 512,
+      "height": 384,
+      "sha256": "ba93de4870b084da9ecad850cb2a4503335b7194353a116d0109e5c112ea8c1f"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-06.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1024,
+      "height": 768,
+      "sha256": "653714f3db37128c3cfbbb4024e704f57a425781aca05dfc64c8cbe7c9e649bc"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-07.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "4d3a3fa8916f92e057f22d98fd5e9e5985f67ad0171a9e96aafcc15c76eeb4b9"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-08.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "5a26e971f4cfca7b128088f9a2c85eca46ae5c8025fe1e1afddd1ccde3b4aa15"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-09.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "454675481746028964ea0bc9fcee689a52d5e845ba91ed35617c6be486f90428"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-10.webp",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3a6f6071ec1c6fcc9744600127e3752ffad9850005b27ca183ad41e34f179188"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-11.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "d07892591d9a26d08228d1700473b664dc59c38ab239756d2c17a37bb57f249e"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-12.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 512,
+      "height": 384,
+      "sha256": "820c6bc131cd82221c56483dc580a368bcabddc0f644863550284a363b0f1c03"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-13.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "3860864f83e05f47381713f00b85c22d21afdc6687ef1ed432d26ddc1b733329"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-14.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1964,
+      "height": 1149,
+      "sha256": "15c8002e779b9923ac2428143518da7fd354b95e5cff0e136362b955f274b793"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-15.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1964,
+      "height": 1149,
+      "sha256": "81cd659d72f5a54e8f67d3f41d62ee6187f8d5e6cbfa4891249a631dade5a3f2"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-16.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1964,
+      "height": 1149,
+      "sha256": "0bfbff295933e4efca5db7d4c18634f79b50336f408943f1a308b1fa8458901f"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-17.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1964,
+      "height": 1149,
+      "sha256": "7618b68a3e2628b87125dcc4028924f2b3653fc1fcc7c88a9e3842c7156af6ed"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-18.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1964,
+      "height": 1149,
+      "sha256": "bcf563a5e49f3a4d233d8718c586a5a2852b00df6fed664651339d233e70cbbd"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-19.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "a26f59c4552b0ba2f4ebf34938c07a490807a58eead38a31b8948f125809433b"
+    },
+    {
+      "path": "assets/case-studies/studio-links/studio-links-image-20.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1566,
+      "height": 1200,
+      "sha256": "be813544eaeeaacd8afa12f60cb8fb635025162d0f9328554a1cae14d1ca45e3"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-01.png",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 1325,
+      "height": 1773,
+      "sha256": "b4e6d0c851d8febd7319df74a939aaa0060ca2c4a9cd15dfb00023abf3c8ee73"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-02.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 1390,
+      "sha256": "3dad17785d8146bfe40f546895b8ecf8913d6898d2dbec590bbb8d92658642e5"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-03.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 1168,
+      "sha256": "88fa039d0872e8da4b785a1d295ca55401e78932aa56883db4461183fdf47589"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-04.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2000,
+      "height": 3147,
+      "sha256": "d8cf91673d70ce3a8ac7b3a7c03ceeb2e25b40ca3d8e4e5a84eef2e90957572d"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-05.png",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 711,
+      "height": 1004,
+      "sha256": "e98f2a79ec1559bebfcad13583e4a93d57e65a08136d0bff2ea3ee99e5582e10"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-06.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 1729,
+      "height": 6000,
+      "sha256": "62e55db6c00b97f80f70b0d7209b2c45206f1f5bc0cfff5d002bd656dcc3a08a"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-07.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "db874d7eb482032111c1e1e2067c353f8e7267dfdb84d06a2aeca7da08873a56"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-08.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 1174,
+      "sha256": "3cb12f2a05a21585d31d0d7eee5b3315b8eed0f28935929900464c6125cb16be"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-09.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 1729,
+      "height": 6000,
+      "sha256": "62e55db6c00b97f80f70b0d7209b2c45206f1f5bc0cfff5d002bd656dcc3a08a"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-10.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "7b4ed9be9e994661dbb93fc6d878be7914e636514384061e87aee968345b9093"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-11.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "4c669ec3f2c5330da03a8c1b22ada18d9fe8c3b71b4d96be35ebcb29b3389afd"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-12.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 3593,
+      "sha256": "6463a38f243a0b9e71b75f504a9630719701265304c9a47e29335792c9ca3c56"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-13.png",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 1352,
+      "height": 1779,
+      "sha256": "1e680b8edb0eed8657c8bbcea2636168c867a9f7a7f24e37b11cdc0ee5a0890c"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-14.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 1741,
+      "sha256": "a9f4b137b3b2af027d9d9cd1d6283f7bd2c9e69578ba4897db683d266c2e37cd"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-15.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 1714,
+      "sha256": "7300a9ee80c8957b66e1c4aa49c53415284834c770f5a37c27875202c4648182"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-16.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 1357,
+      "height": 2137,
+      "sha256": "77b4fca4a6c8645dfd21c74a7151d2789943f5ebdbfb027661729a40d9262995"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-17.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 1358,
+      "height": 2137,
+      "sha256": "547c4711e3ba89d79eb06a870bf888c9db165e3116ac8b414bb4c060d4580da6"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-18.png",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 712,
+      "height": 1009,
+      "sha256": "466c6287ebee810a13c5a091f0d251f8379b7c5cce6f3e9e5bb546f3feec31fb"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-19.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 1385,
+      "sha256": "c1dea45da9fab7615c462c2e7fcd8cfb01313b0a14028667395ed98dc575f938"
+    },
+    {
+      "path": "assets/case-studies/fern-and-form/fern-and-form-image-20.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2400,
+      "height": 3593,
+      "sha256": "a9d0d4de47baef73a7c90efbaae8b4a4c6cb3789ee048b0e611114d6008ed104"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-01.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 2400,
+      "height": 1668,
+      "sha256": "2c0ae304f7f86a71fc8c72b1657d59dc0ce7bb02efe94396f60d50140466e2a8"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-02.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 2400,
+      "height": 2944,
+      "sha256": "818dc438fb3bffb746640a6132f871e0cbce3dc788c70a7ef17860db1dbf5158"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-03.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 1368,
+      "height": 3006,
+      "sha256": "c18b1484b05ac64b3fe91d2a5a469052887d90acf04d4ab7e8e14d7b54c311d9"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-04.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 1800,
+      "height": 1748,
+      "sha256": "e0e68a25f6da52a2d63e756592b7b0b8660b4889859c721f3c4ce1f648f0a8cb"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-05.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 2000,
+      "height": 1333,
+      "sha256": "920b95da76de548ce0306a8a8dcba3c8ad9c86a4a0acebff224d707d6a0117b9"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-06.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 1500,
+      "height": 1605,
+      "sha256": "846eedc16abbca5de47268a26e0bc260ca290227000f347c7cafc7b5c3182222"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-07.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 2400,
+      "height": 1668,
+      "sha256": "7e53ae6048398c5930f3b1ae7831da91a383cbbbb44b720af488ad90e2edae4e"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-08.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 2000,
+      "height": 1333,
+      "sha256": "f39c3a9714cab290b5132d6e9003207ea5773b7706017c02be2af92da8fc10bf"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-09.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 2400,
+      "height": 1557,
+      "sha256": "5f7ce025d0ffb073add9c16a1acd46e780286ded4b3508223c62878c0fafe55a"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-10.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 1500,
+      "height": 1000,
+      "sha256": "24066b4e28b7958140b993e404c19a6f0d97d4bb76416fb3748311e19361faae"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-11.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "305f85a54f201d9cd05548f60486745eacf7ac9d507103650ca621047d2914ce"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-12.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 1368,
+      "height": 3006,
+      "sha256": "c18b1484b05ac64b3fe91d2a5a469052887d90acf04d4ab7e8e14d7b54c311d9"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-13.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 1800,
+      "height": 1800,
+      "sha256": "f087c75f1e8d5bd5acdd3c691c85042190385b69723426a090f18976e9378e73"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-14.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 1500,
+      "height": 1000,
+      "sha256": "7db268e18be6c9a34cfbb42c07a28c3300f6d010a5fe85d96ac08a070b61385c"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-15.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 1500,
+      "height": 1824,
+      "sha256": "808fe57b22cf02088c14a0c08d6cb78aedca63614ee3eb604e2c9c468448192d"
+    },
+    {
+      "path": "assets/case-studies/modo/modo-image-16.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "ea5342c3d5ed69c26a9a8117e17e13cca3731efe7165aa9ee857146f897ef0fa"
+    },
+    {
+      "path": "assets/case-studies/cart-and-craft/cart-and-craft-image-01.jpg",
+      "project": "Cart & Craft",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "9713553b6e0873354e432de49a50bc88ffba498d6605626bdfabbba710777bd5"
+    },
+    {
+      "path": "assets/case-studies/cart-and-craft/cart-and-craft-image-02.jpg",
+      "project": "Cart & Craft",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "d991b3aeb5d6e5ef896c7a0f6d1acc0ff783984d553b1e4152f3aef4351e5cd3"
+    },
+    {
+      "path": "assets/case-studies/cart-and-craft/cart-and-craft-image-03.jpg",
+      "project": "Cart & Craft",
+      "kind": "image",
+      "width": 2400,
+      "height": 5841,
+      "sha256": "b45a44e06de79f701299c504175022e1b99b13902e9ba0766e4be73fa8fe9e96"
+    },
+    {
+      "path": "assets/case-studies/cart-and-craft/cart-and-craft-image-04.jpg",
+      "project": "Cart & Craft",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "1ca37a1965fc2c037321c25d38a42f4cddc981873048052bd915e67a09555de5"
+    },
+    {
+      "path": "assets/case-studies/cart-and-craft/cart-and-craft-image-05.jpg",
+      "project": "Cart & Craft",
+      "kind": "image",
+      "width": 2400,
+      "height": 1631,
+      "sha256": "3d6eaa2ceae08a364874199145c6d44d4e775fe18a208bc94b20d2a1f6bfdcb9"
+    },
+    {
+      "path": "assets/case-studies/cart-and-craft/cart-and-craft-image-06.jpg",
+      "project": "Cart & Craft",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "af0fdb5fc336c90bfc3dc20c20d0c6118b90bee65c94b9d9ff5c05771e4786ed"
+    },
+    {
+      "path": "assets/case-studies/cart-and-craft/cart-and-craft-image-07.jpg",
+      "project": "Cart & Craft",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "a1e77170e77011ae3b91eb2ce9dc8ebaa60f3ee6e21982be6f9f1b1989b4daa2"
+    },
+    {
+      "path": "assets/case-studies/cart-and-craft/cart-and-craft-image-08.jpg",
+      "project": "Cart & Craft",
+      "kind": "image",
+      "width": 2400,
+      "height": 5841,
+      "sha256": "b45a44e06de79f701299c504175022e1b99b13902e9ba0766e4be73fa8fe9e96"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-brand-reel.mp4",
+      "project": "Threadwell",
+      "kind": "video",
+      "width": 832,
+      "height": 464,
+      "duration": 5.5,
+      "sha256": "12caad3785649ea9b191c0b09a0de7832fcbc9ad72909a7d686870aa9f9498d2"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-01.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 1759,
+      "height": 6000,
+      "sha256": "8754964fc816d59f3d6dfef8257661e13447c1e8f01a88646af1f7307c5ea209"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-02.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 1759,
+      "height": 6000,
+      "sha256": "8754964fc816d59f3d6dfef8257661e13447c1e8f01a88646af1f7307c5ea209"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-03.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 2822,
+      "sha256": "27f79110aa41e144889813799629fe5158f7f3992c71be10048e498cfcee0512"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-04.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "c5b61555a1edecc4fb0b456551e4648e927662b0fff1398048bea0419d9f2372"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-05.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3354,
+      "sha256": "d4899fc24db17898b6a35ae8160a3258a2259db2e3d6ee1342dbdb05bed0ccca"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-06.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3352,
+      "sha256": "703f107eb1302e3900b6b15f26d7ee542c7c7d6a4b87e8c05d617f9f5e5e9f6b"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-07.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3352,
+      "sha256": "fa695cc994aeb72c47850185009799dbe1c04bd576aa6cd17f1989e910a23654"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-08.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3352,
+      "sha256": "ea30f95ac08985361dffcd2860159f99216438a44b27f7ecee57e2f9ac99e406"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-09.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 1748,
+      "height": 4096,
+      "sha256": "5e5aaafdc2df6a4b8517fdef4d5481fd6c9792ea086f11257d18c3d228ba0895"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-10.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 2822,
+      "sha256": "82fcac118e8c8c286fd8acb9355f4909a97caf3c2bd4c3d43be8a3750e9b9798"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-11.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 3025,
+      "sha256": "d6f01bdebc846c496a9cf0cbc4109a9a1efb7893e2c108eeeaac0f3283973937"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-12.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 2822,
+      "sha256": "59f9b4a516dedce553ce014cbc81d5211473fa6fb776e162d2d18730e551f14b"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-13.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 1748,
+      "height": 4096,
+      "sha256": "5e5aaafdc2df6a4b8517fdef4d5481fd6c9792ea086f11257d18c3d228ba0895"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-14.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3354,
+      "sha256": "3a5895ce40589748c8324fddd90ea035ad83292f85edbd92dc644c85f495fabd"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-15.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3354,
+      "sha256": "6a46209142f807aa3e7408d3d455a22706a1a76690fb4a0b20088f221474ae6c"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-16.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3352,
+      "sha256": "ea30f95ac08985361dffcd2860159f99216438a44b27f7ecee57e2f9ac99e406"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-17.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3352,
+      "sha256": "f1b3e2737c98cb60574b356e87b58f8aa5b2dedc554e3b0e0394d20068652b84"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-18.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 2822,
+      "sha256": "6c524e52951a9356330cd99242d590b9a0a2a77013f1d700ce845e396f5ba5ef"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-19.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1524,
+      "sha256": "d9ea54ab11101c79fc58bc0049f12920440cdc48016771ac0329c493c098df08"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-20.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "bfed298b78884e58ae15d846edcaf492b29dc7628a8d717dd76decb9cd478480"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-21.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 2822,
+      "sha256": "eaa6396a0f766538db463535c44a2372e4508811ec233039e4605e34288862de"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-22.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "c262ceb614327a0a41a7b729c67d023c8ffae146f4174f9f8a1607dcd8677569"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-23.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "ddbc3e715dcdfca433e6d6f0512572602b7d4a1737f1476c6b4975a7ca4cd30c"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-24.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 2822,
+      "sha256": "271ad2eec58ef89ec1f96486f642aee2d76befd83d71aacd31210d645fb1e730"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-25.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "9e15f0489abe9de42a380553595b5a0ef9a34c7d6264b284cfef62c9067dd412"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-26.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1512,
+      "sha256": "59261718670f1b089af81a017f432848ddcfa2839c2f7ab6f6a25a18bebc144c"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-27.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "d951d4a82f17a336941dc2c44b580295f6e5315850a462252063bd7121e32c71"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-28.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 2822,
+      "sha256": "59f9b4a516dedce553ce014cbc81d5211473fa6fb776e162d2d18730e551f14b"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-29.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1538,
+      "sha256": "61e941b7247c5bf61c44a6b6f3bf725dc4e1325c743aca321927bab78ef9e266"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-30.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 1748,
+      "height": 4096,
+      "sha256": "5e5aaafdc2df6a4b8517fdef4d5481fd6c9792ea086f11257d18c3d228ba0895"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-31.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "0cbce739870471b13b662b36df8c21fb23233ce16982857b20fe8c11bcb1e5d2"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-32.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "21840de6bda6485e085210952ca176c293e78a7ad68820cb9bac98ebcccec540"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-33.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 2822,
+      "sha256": "b84935312f60b0268434672e7fba2bd8b664b01698bf6e5d511006b1ddbaa6aa"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-35.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 1748,
+      "height": 4096,
+      "sha256": "5e5aaafdc2df6a4b8517fdef4d5481fd6c9792ea086f11257d18c3d228ba0895"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-36.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3354,
+      "sha256": "4248780a78047fe8dd65d048c36428051ae7f48dcd30f1ef4bc02c15cac33347"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-37.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2160,
+      "height": 3354,
+      "sha256": "d4899fc24db17898b6a35ae8160a3258a2259db2e3d6ee1342dbdb05bed0ccca"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-38.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 1759,
+      "height": 6000,
+      "sha256": "8754964fc816d59f3d6dfef8257661e13447c1e8f01a88646af1f7307c5ea209"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-39.png",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 1759,
+      "height": 6000,
+      "sha256": "8754964fc816d59f3d6dfef8257661e13447c1e8f01a88646af1f7307c5ea209"
+    },
+    {
+      "path": "assets/case-studies/threadwell/threadwell-image-40.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "21840de6bda6485e085210952ca176c293e78a7ad68820cb9bac98ebcccec540"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-01.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2400,
+      "height": 5565,
+      "sha256": "4bfaa685d78e5fa9bcb6d28153a0dc7d2bdcc9eb781efb785c0f50bc1e52e56e"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-02.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "7ae8b8e19158b9e961cf701109d898a56d770e891f7b24bdf1c5420a7874172d"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-03.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "74f2a1fe13142fbfa5a6cb6a4eeaa8439c9b8d826b9f2d9e8e8c76761aa74000"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-04.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 512,
+      "height": 341,
+      "sha256": "f052170598b45a934ce154c87f343814e4ffbc495da4d1813f357ee408277570"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-05.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 1024,
+      "height": 683,
+      "sha256": "8600d7270b70562f72e8dfb49ab6da227b97d230a9bd31cdb4b4656de90068b8"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-06.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "ad5e2591df747ae1700b9917e7094d78ccea01df0297743720cd1abde223a491"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-07.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2048,
+      "height": 1365,
+      "sha256": "12ceba5865d9de10210972ab222be475dc9bcce58500fc5014812e579d8bb1f6"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-08.png",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2400,
+      "height": 1986,
+      "sha256": "7e7d317005b7edff474e69d20b93d279a3ef34e1a77a06e5c54461a95767b1f2"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-09.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2400,
+      "height": 2400,
+      "sha256": "ccc94bf45bf1d55446a9d708bcd4d5708d716d1e9961752e70845c42c45c4a2a"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-10.png",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2400,
+      "height": 2432,
+      "sha256": "8b089163cc641c7006999a7d1d1d83cc974fe7f40277a2c4450c511bbe99bc21"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-11.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2400,
+      "height": 5565,
+      "sha256": "4bfaa685d78e5fa9bcb6d28153a0dc7d2bdcc9eb781efb785c0f50bc1e52e56e"
+    },
+    {
+      "path": "assets/case-studies/echo-grove/echo-grove-image-12.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 2400,
+      "height": 1305,
+      "sha256": "2b56d8090c9bb49f17142f6c7f9cc60bb6ceeeda330c287c038532717b89af9a"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-01.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "89174bdd9a1c45889c94d5cc5e61482fd1a95cf8d671bd3c7ac0499144d2c147"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-02.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1856,
+      "height": 2801,
+      "sha256": "d9903cd3f3cc4d968901304bffb484b74a3d2f727d9d6b169e352cab7a6420ef"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-03.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 679,
+      "height": 1024,
+      "sha256": "bcf11c2c148ee7891dd6abfc2b3103386034bf491d63bf8574566d59f0091882"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-04.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "7a9b136c58dbee39ad4cecfe31fa15ebb126dd12491076173cae2fd9cf68c938"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-05.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3631,
+      "sha256": "4d35f7b891eb68be299c88c945ac9f603a1e52057eb25bfc591324ebe5539cbc"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-06.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 677,
+      "height": 1024,
+      "sha256": "2ebdcaac41950a7116fc7c3196e6851cbce1ecb0cc7c4089856f4071fb2676ea"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-07.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "2a74b5f91678286a6d865bf2395744a31f21e71d3ebb825b4938d890ea19c2d0"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-08.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3631,
+      "sha256": "7f3c58dc6e5b37d711da6430105a531e50488cb5cff066e47e04b9334266a5fe"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-09.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "77d4c6b4c5da7047b5e17e96474e6eaa8e98853a4dc0ac01c6c80a1158001ab6"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-10.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "c08e0f3844963969ddcf84a3e41ed8f71f7b2504d89dfedf0c21d1502c9aed38"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-11.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 677,
+      "height": 1024,
+      "sha256": "4fc4232e9b1151fea546ae8b9b9fc2e2732c6c924933ee0b9607745f415e6407"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-12.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "40563ab3cb74fa5d24ab116ff8ae85fa2c3b1a84add9aafe53b8144fbef5bbd9"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-13.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "19d2c1d22809c3ee691e973c7007a95b564259c8fd6a599d219de12c367abf70"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-14.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "4d64ecde9c1f977ef581442f1842fca95d20686226e553e8c8ecd79fbad5e84d"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-15.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1856,
+      "height": 2801,
+      "sha256": "d3d743b4978b12b39e1117e47c7580a012d385634dbcc64e3c38d6b94ae21c1f"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-16.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 679,
+      "height": 1024,
+      "sha256": "6eb31f74fa90e00195f12320ccc847d6b1c808b3f4242f302747acdedfe1f44a"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-17.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "c16fa0038d3c95958e5931c58c90134f446938df3ab13b46088928834f855ea9"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-18.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1856,
+      "height": 2801,
+      "sha256": "55ab52fd4693a0aefec3675b2f46d828e06b02239b04bee234cbebfb5d5bfeff"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-19.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "60993129cc3e329505e4d13d0d16036e90aa47fffecff6fa4cf857072752c647"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-20.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1353,
+      "height": 2048,
+      "sha256": "b28c44e8a2e55b11de0aa2c4762c43ba7d801640138bdbea6b73643c648f5588"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-21.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1856,
+      "height": 2801,
+      "sha256": "b8843d6676066c67165f8f1757f36b92ec6f1f16f06f5524716acb11fe79f51d"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-22.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "2fb5e182ef9da499f76cfb2c9baff9424edb4e5fc8ce5262d75a6a4cf226c372"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-23.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 677,
+      "height": 1024,
+      "sha256": "ac360f15f533cddb70e52852a0f4e37ec0eccdcc25bad8cbfa29f5ba14ca36ac"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-24.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "77afbd090505cffb646a8c3ef1d132ea4b7ff2b2fab0dca6175048dd328927c2"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-25.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "89174bdd9a1c45889c94d5cc5e61482fd1a95cf8d671bd3c7ac0499144d2c147"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-26.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "bd88d0d9804002ade105729c07af9d397286435f5c6b42df2162cdf96f58d662"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-27.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "60993129cc3e329505e4d13d0d16036e90aa47fffecff6fa4cf857072752c647"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-28.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1856,
+      "height": 2801,
+      "sha256": "b94310fe33899e65548c9b64cec071da20965e440ef416cc013cdc8fe0e6d929"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-29.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 679,
+      "height": 1024,
+      "sha256": "5c97cda03d68a583710bcd4b9e9baf3dc1838389ed446b9f7c0a80601540dbe4"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-30.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "4d64ecde9c1f977ef581442f1842fca95d20686226e553e8c8ecd79fbad5e84d"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-31.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1856,
+      "height": 2801,
+      "sha256": "d3d743b4978b12b39e1117e47c7580a012d385634dbcc64e3c38d6b94ae21c1f"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-32.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "77afbd090505cffb646a8c3ef1d132ea4b7ff2b2fab0dca6175048dd328927c2"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-33.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1838,
+      "height": 1200,
+      "sha256": "116ec603c874dac5634dfe7f746e4c9ae08cf84c558731ad228629994e913d7e"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-34.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1024,
+      "height": 669,
+      "sha256": "b956bb60bc341d1d3175cb7247c3d40aa5920e21a3076fd9f7f0d1f712cb0e4e"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-35.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "60993129cc3e329505e4d13d0d16036e90aa47fffecff6fa4cf857072752c647"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-36.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "7a9b136c58dbee39ad4cecfe31fa15ebb126dd12491076173cae2fd9cf68c938"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-37.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 1353,
+      "height": 2048,
+      "sha256": "8e1bf5467c26844f4bebcf472a8f8d05379fcebeb6cf8f7cf3e5cec9c821be7b"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-38.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "2fb5e182ef9da499f76cfb2c9baff9424edb4e5fc8ce5262d75a6a4cf226c372"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-39.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "2a74b5f91678286a6d865bf2395744a31f21e71d3ebb825b4938d890ea19c2d0"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-40.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 677,
+      "height": 1024,
+      "sha256": "726439bfa49118804d51eb133e955bd5927d1759b7ed63d709b31efb2c65055c"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-41.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "89174bdd9a1c45889c94d5cc5e61482fd1a95cf8d671bd3c7ac0499144d2c147"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-42.jpg",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 1600,
+      "sha256": "cc25090f793dd3acf2bab5707e4418fb9756bb17304a5c130c54146a49017140"
+    },
+    {
+      "path": "assets/case-studies/root-ritual/root-ritual-image-43.png",
+      "project": "Root Ritual",
+      "kind": "image",
+      "width": 2400,
+      "height": 3632,
+      "sha256": "60993129cc3e329505e4d13d0d16036e90aa47fffecff6fa4cf857072752c647"
+    },
+    {
+      "path": "assets/case-studies/signal-stack/signal-stack-video-component.mp4",
+      "project": "Signal Stack",
+      "kind": "video",
+      "width": 1080,
+      "height": 1080,
+      "duration": 5.5,
+      "sha256": "72d3f4370594a3a6e6f22d295e2fc28c2c0abca0d1f2987a4081b1460500e59c"
+    },
+    {
+      "path": "assets/case-studies/after-hours/after-hours-motion-loop.mp4",
+      "project": "After Hours",
+      "kind": "video",
+      "width": 1080,
+      "height": 1080,
+      "duration": 5.5,
+      "sha256": "8f9b761425215958b05f673fc15d871d476de8519a79712c57c49a56adbd643a"
+    },
+    {
+      "path": "assets/hero/hero-showreel.mp4",
+      "project": "BirthLab Studio",
+      "kind": "video",
+      "width": 1450,
+      "height": 700,
+      "duration": 53,
+      "sha256": "2152f63ad275497ddc845ece259545c4f80be79a4ba40fd437035256c9658be0"
+    },
+    {
+      "path": "assets/shared/apple-touch-icon.png",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 180,
+      "height": 180,
+      "sha256": "24289016b8f21281a5efc6d0b0232d444979cedbff7694df80d29ad22c6935a8"
+    },
+    {
+      "path": "assets/shared/birthlab-logo.svg",
+      "project": "BirthLab Studio",
+      "kind": "vector",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "826800e8aec3d31cfa95681b7dabe9ac50b8ecb55ea5d19c6ba789f01f41e762"
+    },
+    {
+      "path": "assets/shared/birthlab-og-card.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 1376,
+      "height": 768,
+      "sha256": "cbfa5250aee0ea48891fcb85d3e771225cd9c4ddfe4a6bf4cd289a4e87ff9220"
+    },
+    {
+      "path": "assets/shared/birthlab-studio-footer-logo.svg",
+      "project": "BirthLab Studio",
+      "kind": "vector",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "28b38123b8808dbfa932b886bd9e9a4927afa49fa5813f21cdb16427654d0a1c"
+    },
+    {
+      "path": "assets/shared/favicon-dark.png",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 64,
+      "height": 64,
+      "sha256": "25394e5ea23702bb822c34fca84b81805b4bf23d8d3c581fe488baaf08c911b0"
+    },
+    {
+      "path": "assets/shared/favicon-light.png",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 64,
+      "height": 64,
+      "sha256": "25394e5ea23702bb822c34fca84b81805b4bf23d8d3c581fe488baaf08c911b0"
+    },
+    {
+      "path": "assets/shared/footer-banner-birthlab.svg",
+      "project": "BirthLab Studio",
+      "kind": "vector",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "644fd2fe6f13e59577344ecc905508573eca7c4059fa9052df00c9205ced50d1"
+    },
+    {
+      "path": "assets/shared/footer-banner-shapes.svg",
+      "project": "BirthLab Studio",
+      "kind": "vector",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "798b32e2375591677d61c6d4e0d8f064b357ddb39397b252a47757e99dedd95a"
+    },
+    {
+      "path": "assets/shared/footer-preview-daybreak-brew.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "088e6611e3a71b3166d47c76d7ec62f002d6bfa2d9e2b10d9b8df2924b7678b8"
+    },
+    {
+      "path": "assets/shared/footer-preview-fern-and-form.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "c36dc2a3e31d5595525dd6642326b0083482175a1e632ef7dc698b1ec43072a0"
+    },
+    {
+      "path": "assets/shared/footer-preview-modo.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "3d256255ba47772b881ddec2033bf7a4106be048ddd1b8c5ed5a97ca12a1f7d3"
+    },
+    {
+      "path": "assets/shared/testimonial-jamil-hossain.jpg",
+      "project": "BirthLab Studio",
+      "kind": "image",
+      "width": 600,
+      "height": 600,
+      "sha256": "d1d361ed6a5609f7556d9f2d430f096ede2dbcd65c7e0e73751b938250a5d9ae"
+    },
+    {
+      "path": "assets/work-highlights/astra-preview.jpg",
+      "project": "Astra",
+      "kind": "image",
+      "width": 1968,
+      "height": 1308,
+      "sha256": "23dc491873cf3261898d5e1d461ac94eb1aa25653f20814162a083b31c8be993"
+    },
+    {
+      "path": "assets/work-highlights/form-forward-preview.jpg",
+      "project": "Form Forward",
+      "kind": "image",
+      "width": 1800,
+      "height": 1200,
+      "sha256": "2e11b461a3249bf04b0101cc78e6c3846087f91a4233b6a3b0e210d300fedb72"
+    },
+    {
+      "path": "assets/work-highlights/northline-preview.svg",
+      "project": "Northline",
+      "kind": "animated-vector",
+      "width": 1600,
+      "height": 1000,
+      "sha256": "f5667ebf5c747409de397448fb070186ca687d2d6c990d4dedaed3a180609bcd"
+    },
+    {
+      "path": "assets/work-highlights/daybreak-brew-preview.jpg",
+      "project": "Daybreak Brew",
+      "kind": "image",
+      "width": 1968,
+      "height": 1308,
+      "sha256": "53823675867d670c0c9c444ede1afabbca2ae674ef99de5f7d0a686dc5873cf6"
+    },
+    {
+      "path": "assets/work-highlights/roam-atlas-preview.jpg",
+      "project": "Roam Atlas",
+      "kind": "image",
+      "width": 1500,
+      "height": 985,
+      "sha256": "f5c2e4da42e166660a4a69cda07262df7e4a96512d63837bf54a28796e858c1b"
+    },
+    {
+      "path": "assets/work-highlights/frame-library-preview.jpg",
+      "project": "Frame Library",
+      "kind": "image",
+      "width": 1968,
+      "height": 1346,
+      "sha256": "6595d154f6934f0a103f30db7bdde30dcf41546608016aca713aa562b22155f6"
+    },
+    {
+      "path": "assets/work-highlights/ridekind-preview.jpg",
+      "project": "Ridekind",
+      "kind": "image",
+      "width": 2400,
+      "height": 1649,
+      "sha256": "a0bec9bbea2072ac601ef1357fd0a446359a7e21b1d57466eb0655ed53460b0c"
+    },
+    {
+      "path": "assets/work-highlights/harbour-notes-preview.jpg",
+      "project": "Harbour Notes",
+      "kind": "image",
+      "width": 2000,
+      "height": 1329,
+      "sha256": "473cb9bfca430c1694a9b842404cfc10ce8a328359bb00cfdc1230c43affcef9"
+    },
+    {
+      "path": "assets/work-highlights/studio-links-preview.jpg",
+      "project": "Studio Links",
+      "kind": "image",
+      "width": 1566,
+      "height": 1200,
+      "sha256": "5d780e2218724027c08ab9f6820d4f19c21dbdfcb3ab77b86e22379771ec9d0f"
+    },
+    {
+      "path": "assets/work-highlights/fern-and-form-preview.jpg",
+      "project": "Fern & Form",
+      "kind": "image",
+      "width": 2000,
+      "height": 1500,
+      "sha256": "d102f9f79df0473c637f97e81d92ddb861f274f386197bc2876c4f8d602eb875"
+    },
+    {
+      "path": "assets/work-highlights/modo-preview.jpg",
+      "project": "Modo",
+      "kind": "image",
+      "width": 2400,
+      "height": 1643,
+      "sha256": "ca368c894b52f4d39c3400bfecb389ba6f4db4530ce3509032b22ca1a57dbdb6"
+    },
+    {
+      "path": "assets/work-highlights/cart-and-craft-preview.jpg",
+      "project": "Cart & Craft",
+      "kind": "image",
+      "width": 1838,
+      "height": 1200,
+      "sha256": "bc6cb898cbd274a1b0bd65c65b8829a6cd027088b83c7257a8a909f63de455cc"
+    },
+    {
+      "path": "assets/work-highlights/threadwell-preview.jpg",
+      "project": "Threadwell",
+      "kind": "image",
+      "width": 2400,
+      "height": 1420,
+      "sha256": "de8234e852ea624e1ce41e3eee1888c89eb8f1262dc83534f35914a722111c39"
+    },
+    {
+      "path": "assets/work-highlights/echo-grove-preview.jpg",
+      "project": "Echo Grove",
+      "kind": "image",
+      "width": 1500,
+      "height": 979,
+      "sha256": "21407c31cc051db1943f24d94cc5652ee53e6f24d209d2b1d48c3f8026276578"
+    },
+    {
+      "path": "assets/case-studies/signal-stack/signal-channel-01.mp4",
+      "project": "Signal Stack",
+      "width": 1600,
+      "height": 900,
+      "duration": 5.5,
+      "sha256": "18dc8385ee6c0c0a502204b7cd58ecf15df369cdf70285246c3e1bc903acbce0",
+      "kind": "video"
+    },
+    {
+      "path": "assets/case-studies/signal-stack/signal-channel-02.mp4",
+      "project": "Signal Stack",
+      "width": 1600,
+      "height": 900,
+      "duration": 5.5,
+      "sha256": "53fb44b2e4a74dcfb7132ec13d78be64ee19a8436ee5bca605317829a818ba96",
+      "kind": "video"
+    },
+    {
+      "path": "assets/case-studies/signal-stack/signal-channel-03.mp4",
+      "project": "Signal Stack",
+      "width": 1600,
+      "height": 900,
+      "duration": 5.5,
+      "sha256": "83bf0986a0585db78d4ed67fd052bf9e0557a083acfb6b5cb0857743c66cdca8",
+      "kind": "video"
+    },
+    {
+      "path": "assets/case-studies/signal-stack/signal-channel-04.mp4",
+      "project": "Signal Stack",
+      "width": 1600,
+      "height": 900,
+      "duration": 5.5,
+      "sha256": "8b029d67131529f2d24fb53591759bb9134abc34f62e3ecf2091b2ff83312e09",
+      "kind": "video"
+    },
+    {
+      "path": "assets/case-studies/after-hours/after-hours-channel-01.mp4",
+      "project": "After Hours",
+      "width": 1080,
+      "height": 1080,
+      "duration": 5.5,
+      "sha256": "21ded8f78bcba6bff2667339aa7be7dac17276512ad29cda36747f839ef69a33",
+      "kind": "video"
+    },
+    {
+      "path": "assets/case-studies/after-hours/after-hours-channel-02.mp4",
+      "project": "After Hours",
+      "width": 1080,
+      "height": 1080,
+      "duration": 5.5,
+      "sha256": "c63d084aaa89cff94ba0192690b5235a96f85041637c5f74a8ceab492db55ab6",
+      "kind": "video"
+    },
+    {
+      "path": "assets/case-studies/after-hours/after-hours-channel-03.mp4",
+      "project": "After Hours",
+      "width": 1080,
+      "height": 1080,
+      "duration": 5.5,
+      "sha256": "8cab1ce184263b54bf97a03125999f1f74ac08626246134de5d5561f3be85191",
+      "kind": "video"
+    },
+    {
+      "path": "assets/case-studies/after-hours/after-hours-channel-04.mp4",
+      "project": "After Hours",
+      "width": 1080,
+      "height": 1080,
+      "duration": 5.5,
+      "sha256": "d75c013474ec280d7bc333a6ae837539527c69a678bae566f3083c9f07752850",
+      "kind": "video"
+    },
+    {
+      "path": "assets/shared/favicon-white.svg",
+      "project": "BirthLab Studio",
+      "width": 512,
+      "height": 512,
+      "sha256": "b37ea1743c957e95ecaf26eb8345bb82edaea0d2f51fba8225a298eb1a0db646",
+      "kind": "vector"
+    },
+    {
+      "path": "assets/shared/favicon-white-32.png",
+      "project": "BirthLab Studio",
+      "width": 32,
+      "height": 32,
+      "sha256": "3d55ec24bf5d937c4e16593c100fdb85d36556224d03dc50d1d36bb3a6cb47d2",
+      "kind": "image"
+    },
+    {
+      "path": "assets/shared/favicon-white-64.png",
+      "project": "BirthLab Studio",
+      "width": 64,
+      "height": 64,
+      "sha256": "b94510ed434e24950a63ef167fa9005813d5238ac2e02f7e9e055e7db5226b29",
+      "kind": "image"
+    },
+    {
+      "path": "assets/shared/favicon-white-180.png",
+      "project": "BirthLab Studio",
+      "width": 180,
+      "height": 180,
+      "sha256": "a1198369ee5ef2eeedb398b4704cdc1ec7c338ee7861fb1ba49c6384aea4ea64",
+      "kind": "image"
+    }
+  ]
+}

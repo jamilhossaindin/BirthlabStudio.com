@@ -5,7 +5,7 @@
  * Automatically updates and hot-swaps images, SVG logos, and videos across:
  * 1. Disk assets directory (assets/shared, assets/hero, assets/work-highlights, assets/case-studies)
  * 2. All 22 Static HTML pages (src, srcset, og:image, twitter:image, link rel="icon")
- * 3. All 18 Compiled React .mjs bundles (preventing hydration reverts)
+ * 3. All compiled React browser modules (preventing hydration reverts)
  * 4. Micro-cache busting to force browsers to load the new media immediately
  * 
  * Usage:
@@ -100,7 +100,15 @@ if (!fs.existsSync(resolvedSourcePath)) {
 }
 
 const finalFilename = newNameArg || path.basename(resolvedSourcePath);
-const finalTargetPath = path.join(path.dirname(targetPath), finalFilename);
+if (!/^[A-Za-z0-9][A-Za-z0-9_.-]*$/.test(finalFilename) || finalFilename.includes('..')) {
+  console.error('Error: The new asset name must be a filename, without directories or special characters.');
+  process.exit(1);
+}
+const finalTargetPath = path.resolve(path.dirname(targetPath), finalFilename);
+if (!finalTargetPath.startsWith(path.resolve(ASSETS_DIR) + path.sep) || !fs.statSync(resolvedSourcePath).isFile()) {
+  console.error('Error: Asset destination or source is invalid.');
+  process.exit(1);
+}
 
 // 3. Scan Code Files (HTML + Runtime JS)
 function getCodeFiles(dir, extensions) {
@@ -168,10 +176,10 @@ for (const filePath of allCodeFiles) {
 
 // 4. Copy / Overwrite Asset File
 if (!isDryRun) {
-  if (targetPath !== finalTargetPath && fs.existsSync(targetPath)) {
-    fs.unlinkSync(targetPath); // remove old file if renamed
-  }
   fs.copyFileSync(resolvedSourcePath, finalTargetPath);
+  if (targetPath !== finalTargetPath && fs.existsSync(targetPath)) {
+    fs.unlinkSync(targetPath);
+  }
 }
 
 const elapsedMs = (performance.now() - startTime).toFixed(1);

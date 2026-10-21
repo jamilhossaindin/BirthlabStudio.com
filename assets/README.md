@@ -1,17 +1,7 @@
-# Semantic Asset Directory (`assets/`)
+# BirthLab Studio media
 
-This directory provides an organized, human-readable view of all media assets in the BirthLab Studio project.
+This collection contains artwork for the studio concept portfolio: code-rendered identity and interface graphics, generated product and studio-process imagery, animated SVGs, and H.264 MP4 motion studies. Production records and checksums document the files; third-party provenance and clearance limits are recorded in ../THIRD_PARTY_NOTICES.md.
 
-## Directory Structure
-- `hero/`: Hero showreel video (`hero-showreel.mp4`)
-- `work-highlights/`: 14 preview cards for each project (Just Phil, Slashwork, Epic Travel, MIXD, etc.)
-- `about/`: Studio team showcase (`birthlab-og-card.jpg`), founder studio reel, and published books
-- `case-studies/`: 17 dedicated project folders containing brand media and video reels
-- `audio/`: Audio soundscapes and WAV tracks
-- `fonts/`: Subset WOFF2 typography files
-- `404/`: 404 page background animations
-- `runtime-scripts/`: React 18, Framer Motion, and Lenis smooth scroll engine bundles
-- `manifest.json`: Complete bidirectional mapping between clean filenames and runtime hashed files
+Media paths are synchronized between static HTML and browser modules. Three former GIF slots use animated SVG files. The media manifest records the production dimensions and checksums. The fonts and audio files retain their existing roles.
 
-## Zero-Overhead Guarantee
-Files in this directory are linked via filesystem hardlinks to `_assets/`. They consume **0 extra disk space** and guarantee 100% stability for the site's runtime.
+Generated source images are in studio-originals/. The reusable artwork renderer and concept palettes are in ../scripts/concept-art.cjs and ../scripts/concept-media.json.

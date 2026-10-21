@@ -5,7 +5,7 @@ const query = process.argv[2]?.toLowerCase();
 if (!query) {
   console.log('Usage: node find-asset.mjs <query>');
   console.log('Example: node find-asset.mjs hero');
-  console.log('Example: node find-asset.mjs slashwork');
+  console.log('Example: node find-asset.mjs threadwell');
   console.log('Example: node find-asset.mjs preview');
   process.exit(0);
 }

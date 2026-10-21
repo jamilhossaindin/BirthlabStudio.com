@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Core Narrative Routes -->
+  <url><loc>https://birthlabstudio.com/process</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://birthlabstudio.com/services</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url>
     <loc>https://birthlabstudio.com/</loc>
     <lastmod>2026-10-19</lastmod>
@@ -28,97 +30,97 @@
 
   <!-- Client Case Studies -->
   <url>
-    <loc>https://birthlabstudio.com/case-studies/birthlab-beer</loc>
+    <loc>https://birthlabstudio.com/case-studies/daybreak-brew</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/121g</loc>
+    <loc>https://birthlabstudio.com/case-studies/astra</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/beyondtellerrand</loc>
+    <loc>https://birthlabstudio.com/case-studies/form-forward</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/bigeye</loc>
+    <loc>https://birthlabstudio.com/case-studies/northline</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/epic-travel</loc>
+    <loc>https://birthlabstudio.com/case-studies/roam-atlas</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/getty-images</loc>
+    <loc>https://birthlabstudio.com/case-studies/frame-library</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/justphil</loc>
+    <loc>https://birthlabstudio.com/case-studies/ridekind</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/kapilandholly</loc>
+    <loc>https://birthlabstudio.com/case-studies/harbour-notes</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/linkboard</loc>
+    <loc>https://birthlabstudio.com/case-studies/studio-links</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/lumaandleaf</loc>
+    <loc>https://birthlabstudio.com/case-studies/fern-and-form</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/mixd</loc>
+    <loc>https://birthlabstudio.com/case-studies/modo</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/plug-digital</loc>
+    <loc>https://birthlabstudio.com/case-studies/cart-and-craft</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/slashwork</loc>
+    <loc>https://birthlabstudio.com/case-studies/threadwell</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/snapsound</loc>
+    <loc>https://birthlabstudio.com/case-studies/echo-grove</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/thebodyshop</loc>
+    <loc>https://birthlabstudio.com/case-studies/root-ritual</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://birthlabstudio.com/case-studies/tvs</loc>
+    <loc>https://birthlabstudio.com/case-studies/signal-stack</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

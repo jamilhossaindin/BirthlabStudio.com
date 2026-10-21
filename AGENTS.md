@@ -1,61 +1,24 @@
-# AGENTS.md — Agent Operating Contract & Repository Guidelines
+# BirthLab Studio project instructions
 
-Welcome to the **BirthLab Studio** repository. This document defines the operating contract, workflow rules, dev server instructions, and coding standards for all AI coding agents working in this codebase.
+## Run locally when requested
 
----
+When the user gives this folder location and asks to run the website on localhost, do the setup and start the server for them. Do not stop at giving terminal commands or asking the user to run npm manually.
 
-## 1. Primary Directives & Dev Server Guardrails
+1. Work from this directory. Read package.json and use the existing guarded server; do not replace it with a generic static server.
+2. Use the port explicitly requested by the user. If no port is specified, use 4000. The existing server supports TCP ports 1-65535 through the PORT environment variable.
+3. Check that Node.js and npm are available. If Node.js is missing, handle installation using a supported local method where permitted; report any unavoidable operating-system approval or prerequisite.
+4. If dependencies are missing, run `npm ci` yourself in this directory. The portable ZIP intentionally excludes node_modules.
+5. Set PORT for the server process and run `npm start`, keeping the process running. For example, in PowerShell: `$env:PORT='2000'; npm start`. On a POSIX shell: `PORT=2000 npm start`. Do not change the application's source files just to select a port.
+6. Keep the binding at 127.0.0.1. Do not expose the site to the network or deploy it publicly unless explicitly requested.
+7. Verify HTTP 200 at `http://localhost:<requested-port>/` and report the clickable URL. Do not claim it is live before verification.
+8. If the port is occupied by this project's running server, verify and reuse it. Do not kill an unrelated process or silently choose a different port.
 
-### ⚠️ Never Run Production Builds During Interactive Sessions
-- **Run the local dev server using:**
-  ```bash
-  npm run dev
-  # OR
-  npm start
-  ```
-- **Port:** Listens on `http://localhost:3000`.
-- **Do NOT run destructive build commands** during interactive pairing sessions. Maintain the live static server.
+Starting the website does not authorize changes to its content, design, animation, routes or configuration.
 
----
+## Preserve the handover
 
-## 2. Dependency & Package Management
-
-- **Package Manager:** `npm` (Node.js >= 20).
-- **Core Dependencies:**
-  - `serve`: Static file server with clean routing and custom port support.
-- **Overrides:**
-  - `compression`: Explicitly pinned to `^1.8.2` to eliminate known GHSA Denial-of-Service vulnerabilities.
-- **Rule:** If modifying `package.json`, always run `npm install` and verify `npm audit` produces zero vulnerabilities.
-
----
-
-## 3. Project Architecture & Code Structure
-
-- **Origin / Source:** Official repository and digital experience for BirthLab Studio (originally designed and published via Framer with React 18, Framer Motion, and Lenis Smooth Scroll runtime).
-- **Directory Layout:**
-  - `index.html`: Home page entrypoint.
-  - `about/index.html`, `work/index.html`, `contact/index.html`, `404/index.html`: Primary narrative routes.
-  - `case-studies/`: Centralized folder containing all 17 discrete client case studies (`121g/`, `beyondtellerrand/`, `bigeye/`, `epic-travel/`, `getty-images/`, `justphil/`, `kapilandholly/`, `linkboard/`, `lumaandleaf/`, `birthlab-beer/`, `mixd/`, `plug-digital/`, `slashwork/`, `snapsound/`, `thebodyshop/`, `tvs/`, `x/`).
-  - `assets/`: Segment-wise organized directory containing categorized assets (`hero/`, `work-highlights/`, `case-studies/`, `about/`, `404/`, `fonts/`, `runtime-scripts/`, `audio/`, `shared/`) with human-readable naming.
-  - `docs/`: Centralized project documentation, architecture analysis, and audit reports.
-  - `scripts/`: Developer CLI utilities (e.g. `find-asset.mjs`).
-  - `package.json`: Scripts and pinned server runtime.
-
----
-
-## 4. Coding & Modification Standards
-
-1. **Static Route Integrity:** Every route folder must contain an `index.html` to maintain clean subpath URLs (e.g. `/work` resolving to `work/index.html`).
-2. **Asset Pathing:** All asset references must use relative paths (`./assets/...` or `../assets/...`) to support arbitrary local hosting ports or static file hosts.
-3. **Accessibility Baseline:** All user-facing modifications must target WCAG 2.2 Level AA conformance as defined in [ACCESSIBILITY.md](file:///h:/Projects/BirthlabStudio.com/ACCESSIBILITY.md).
-4. **Security Hardening:** Do not introduce unvetted external scripts, third-party analytics trackers, or unauthenticated iframe embeds.
-
----
-
-## 5. Verification Checklist
-
-Before completing any change:
-1. Verify the server is active on `http://localhost:3000`.
-2. Test affected route status codes (`200 OK`).
-3. Confirm keyboard focus rings remain visible and accessible.
-4. Run `npm audit` to verify zero vulnerabilities.
+- Save requested edits directly in this main project folder.
+- Keep backups, duplicate projects, screenshots, temporary scripts and audit output outside this folder.
+- Preserve the existing design, CSS identifiers, responsive behavior, animations, interactions and security boundary.
+- Update static HTML and corresponding compiled browser modules together when editing shared content. Refresh security headers after changing inline scripts.
+- Retain required third-party notices and accurate provenance. See THIRD_PARTY_NOTICES.md.

@@ -5,9 +5,9 @@ const files = [
   'about/index.html',
   'work/index.html',
   'contact/index.html',
-  'case-studies/birthlab-beer/index.html',
-  'case-studies/beyondtellerrand/index.html',
-  'case-studies/thebodyshop/index.html'
+  'case-studies/daybreak-brew/index.html',
+  'case-studies/form-forward/index.html',
+  'case-studies/root-ritual/index.html'
 ];
 
 let allOk = true;

@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "astra",
+    "name": "Astra",
+    "desc": "A BirthLab Studio concept exploring a confident identity and digital presence for an early-stage venture studio.",
+    "focus": "Venture Studio Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "form-forward",
+    "name": "Form Forward",
+    "desc": "A BirthLab Studio concept for a creative conference, connecting expressive typography, event graphics, and a digital programme.",
+    "focus": "Creative Conference Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "northline",
+    "name": "Northline",
+    "desc": "A BirthLab Studio agency concept exploring a strategic identity, flexible illustration system, and clear digital storytelling.",
+    "focus": "Creative Agency Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "daybreak-brew",
+    "name": "Daybreak Brew",
+    "desc": "A BirthLab Studio packaging concept bringing expressive lettering, saturated colour, and a playful voice to a fictional craft beverage.",
+    "focus": "Craft Beverage Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "roam-atlas",
+    "name": "Roam Atlas",
+    "desc": "A BirthLab Studio travel concept combining an adventurous identity with an editorial approach to digital trip discovery.",
+    "focus": "Adventure Travel Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "frame-library",
+    "name": "Frame Library",
+    "desc": "A BirthLab Studio visual archive concept exploring photography, graphic composition, and a flexible editorial identity.",
+    "focus": "Visual Archive Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "ridekind",
+    "name": "Ridekind",
+    "desc": "A BirthLab Studio community cycling concept exploring a campaign identity, expressive typography, and a responsive digital story.",
+    "focus": "Community Cycling Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "harbour-notes",
+    "name": "Harbour Notes",
+    "desc": "A BirthLab Studio illustration concept exploring coastal scenes, personal keepsakes, and a warm editorial visual language.",
+    "focus": "Illustration Collection Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "studio-links",
+    "name": "Studio Links",
+    "desc": "A BirthLab Studio interface concept for a modular creator profile, bringing projects, links, and personal introductions together.",
+    "focus": "Creator Profile Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "fern-and-form",
+    "name": "Fern & Form",
+    "desc": "A BirthLab Studio skincare concept exploring a calm identity, botanical illustration, and a cohesive packaging family.",
+    "focus": "Botanical Skincare Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "modo",
+    "name": "Modo",
+    "desc": "A BirthLab Studio digital agency concept exploring a modular identity, expressive graphic language, and a clear portfolio experience.",
+    "focus": "Digital Practice Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "cart-and-craft",
+    "name": "Cart & Craft",
+    "desc": "A BirthLab Studio commerce studio concept exploring brand strategy, a flexible identity, and a focused digital introduction.",
+    "focus": "Commerce Studio Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "threadwell",
+    "name": "Threadwell",
+    "desc": "A BirthLab Studio collaboration concept exploring a calm identity, clear typography, and a considered product marketing experience.",
+    "focus": "Team Communication Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "echo-grove",
+    "name": "Echo Grove",
+    "desc": "A BirthLab Studio sound studio concept exploring immersive illustration, a distinctive identity, and a clear digital listening journey.",
+    "focus": "Sound Studio Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "root-ritual",
+    "name": "Root Ritual",
+    "desc": "A BirthLab Studio personal care concept exploring botanical ingredients, expressive campaigns, and a confident visual voice.",
+    "focus": "Personal Care Campaign Concept",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "signal-stack",
+    "name": "Signal Stack",
+    "desc": "A BirthLab Studio interaction study exploring layered video, hover states, and sound within a playful motion interface.",
+    "focus": "Interactive Motion Study",
+    "type": "Studio concept"
+  },
+  {
+    "slug": "after-hours",
+    "name": "After Hours",
+    "desc": "An experimental BirthLab Studio motion concept exploring short loops, rhythm, sound, and unexpected transitions.",
+    "focus": "Experimental Motion Study",
+    "type": "Studio concept"
+  }
+]

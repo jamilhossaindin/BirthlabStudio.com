@@ -75,7 +75,7 @@ const TARGET_KEYWORDS = [
   'top UI/UX design agency in Asia',
   'best web app developing agency',
   'custom web application development studio',
-  'award winning brand identity studio',
+  'independent brand identity studio',
   'interactive web design agency',
   'motion design and 3D studio',
   'BirthLab Studio',
@@ -101,7 +101,7 @@ const pages = [
     filePath: 'work/index.html',
     canonicalPath: '/work',
     title: 'Work — BirthLab Studio',
-    description: 'Selected client case studies and featured design highlights by BirthLab Studio.',
+    description: 'Studio concepts, brand explorations, and digital experiments from BirthLab Studio.',
     schemaType: 'work'
   },
   {
@@ -113,31 +113,13 @@ const pages = [
   }
 ];
 
-const caseStudySlugs = [
-  { slug: '121g', name: '121G', desc: 'Brand identity, digital presence, and bespoke typography for 121G.' },
-  { slug: 'beyondtellerrand', name: 'Beyond Design Conference', desc: 'Interactive digital identity and stage experience for Beyond Design Conference.' },
-  { slug: 'bigeye', name: 'Bigeye', desc: 'Design system, motion language, and high-impact web presence for Bigeye.' },
-  { slug: 'birthlab-beer', name: 'BirthLab Beer', desc: 'Creative packaging, vibrant typography, and branding concept for BirthLab Beer.' },
-  { slug: 'epic-travel', name: 'Epic Travel', desc: 'Immersive travel discovery platform, editorial UI, and booking experience for Epic Travel.' },
-  { slug: 'getty-images', name: 'Curated Imagery', desc: 'Visual strategy, archival presentation, and digital experience for Curated Imagery.' },
-  { slug: 'justphil', name: 'Just Phil', desc: 'Personal brand identity, content architecture, and creative portfolio for Just Phil.' },
-  { slug: 'kapilandholly', name: 'Kapil & Holly', desc: 'Editorial visual storytelling and digital experience for Kapil & Holly.' },
-  { slug: 'linkboard', name: 'Linkboard', desc: 'Product design, design system, and web application UI for Linkboard.' },
-  { slug: 'lumaandleaf', name: 'Luma & Leaf', desc: 'Clean beauty brand packaging, e-commerce direction, and visual identity for Luma & Leaf.' },
-  { slug: 'mixd', name: 'Mixd', desc: 'Dynamic brand identity, interactive 3D assets, and digital launch for Mixd.' },
-  { slug: 'plug-digital', name: 'Plug Digital', desc: 'Modern agency identity, high-conversion web presence, and motion UI for Plug Digital.' },
-  { slug: 'slashwork', name: 'Slashwork', desc: 'Collaborative workspace brand identity and interactive platform design for Slashwork.' },
-  { slug: 'snapsound', name: 'SnapSound', desc: 'Audio tech identity, sonic branding elements, and interface design for SnapSound.' },
-  { slug: 'thebodyshop', name: 'Botanical Body Co.', desc: 'Eco-conscious digital experience and storytelling showcase for Botanical Body Co.' },
-  { slug: 'tvs', name: 'TVS', desc: 'Automotive brand storytelling, interactive feature explorer, and modern web UI for TVS.' },
-  { slug: 'x', name: 'X.com', desc: 'Digital design concept and interactive micro-experiences for X.' }
-];
+const caseStudySlugs = JSON.parse(fs.readFileSync(new URL('./portfolio-projects.json', import.meta.url), 'utf8'));
 
 for (const cs of caseStudySlugs) {
   pages.push({
     filePath: `case-studies/${cs.slug}/index.html`,
     canonicalPath: `/case-studies/${cs.slug}`,
-    title: `${cs.name} — Case Study — ${STUDIO_NAME}`,
+    title: `${cs.name} — Studio Concept — ${STUDIO_NAME}`,
     description: cs.desc,
     schemaType: 'case-study',
     caseStudyName: cs.name

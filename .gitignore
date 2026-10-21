@@ -22,3 +22,11 @@ Thumbs.db
 .tempmediaStorage/
 
 .vercel
+
+# Local secrets and audit scratch files
+.env.*
+.npmrc
+*.pem
+*.key
+*.bak
+*.birthlab-new

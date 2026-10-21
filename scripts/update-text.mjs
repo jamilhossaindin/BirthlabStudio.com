@@ -4,7 +4,7 @@
  * 
  * Automatically updates text simultaneously across:
  * 1. All 22 Static HTML pages (for SEO, initial load, and web crawlers)
- * 2. All 18 Compiled React .mjs bundles (preventing React hydration reverts)
+ * 2. All compiled React browser modules (preventing React hydration reverts)
  * 
  * Usage:
  *   node scripts/update-text.mjs "Old Text" "New Text"

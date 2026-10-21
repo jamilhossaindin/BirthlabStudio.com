@@ -1,0 +1,411 @@
+/* Use the requested Manrope weights without changing the exported site's fonts. */
+@font-face {
+  font-family: "Manrope Enquiry";
+  src: url("../fonts/manrope-enquiry-variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+}
+
+.bl-enquiry,
+.bl-enquiry * {
+  box-sizing: border-box;
+}
+
+.bl-enquiry {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  height: 100dvh;
+  top: var(--bl-viewport-top, 0px);
+  bottom: auto;
+  height: var(--bl-viewport-height, 100dvh);
+  max-height: none;
+  margin: 0;
+  padding: 16px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #0066ff;
+  font-family: "Manrope Enquiry", Manrope, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: left;
+  overflow: hidden;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+}
+
+.bl-enquiry:not([open]) {
+  display: none;
+}
+
+.bl-enquiry[open] {
+  display: flex;
+}
+
+.bl-enquiry::backdrop {
+  background: rgb(28 28 28 / 45%);
+}
+
+.bl-enquiry__panel {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 840px;
+  height: 647px;
+  max-height: calc(var(--bl-viewport-height, 100dvh) - 32px);
+  margin: auto;
+  padding: 48px;
+  outline: 1px solid #0066ff;
+  outline-offset: -1px;
+  border-radius: 0;
+  background: #fcfcfa;
+  box-shadow: none;
+}
+
+.bl-enquiry__intro {
+  flex: none;
+  display: grid;
+  gap: 12px;
+}
+
+.bl-enquiry__title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  /* The title's natural 70.4px line box remains visible in this 70px row. */
+  height: 70px;
+}
+
+.bl-enquiry__title {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font: 600 64px/1.1 "Manrope Enquiry", Manrope, sans-serif;
+  letter-spacing: -3.2px;
+  color: #0066ff;
+}
+
+.bl-enquiry__description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.bl-enquiry button,
+.bl-enquiry input {
+  margin: 0;
+  font-family: inherit;
+  letter-spacing: 0;
+  color: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.bl-enquiry button {
+  cursor: pointer;
+}
+
+.bl-enquiry__close {
+  flex: 0 0 44px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid #b7d1fa;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.bl-enquiry__close svg {
+  width: 22px;
+  height: 22px;
+}
+
+.bl-enquiry__form {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #0066ff #fcfcfa;
+  gap: 32px;
+  margin: 32px 0 0;
+}
+
+.bl-enquiry__fields {
+  flex: none;
+  display: grid;
+  gap: 24px;
+}
+
+.bl-enquiry__pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 24px;
+}
+
+.bl-enquiry__field {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.bl-enquiry__label {
+  display: block;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.bl-enquiry__input,
+.bl-enquiry__select {
+  width: 100%;
+  min-width: 0;
+  height: 56px;
+  padding: 0 19px;
+  border: 1px solid #b7d1fa;
+  border-radius: 0;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.bl-enquiry__input::placeholder {
+  color: #5976a3;
+  opacity: 1;
+}
+
+.bl-enquiry__select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: left;
+}
+
+.bl-enquiry__placeholder {
+  color: #5976a3;
+}
+
+.bl-enquiry__chevron {
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.bl-enquiry__select[aria-expanded="true"] .bl-enquiry__chevron {
+  transform: rotate(180deg);
+}
+
+.bl-enquiry__service {
+  position: relative;
+  overflow: visible;
+}
+
+.bl-enquiry__menu {
+  position: fixed;
+  z-index: 10;
+  height: 176px;
+  padding: 8px;
+  outline: 1px solid #0066ff;
+  outline-offset: -1px;
+  border-radius: 0;
+  background: #ffffff;
+  box-shadow: none;
+}
+
+.bl-enquiry__menu[hidden] {
+  display: none;
+}
+
+.bl-enquiry__options {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  scrollbar-width: thin;
+  scrollbar-color: #0066ff #ffffff;
+}
+
+.bl-enquiry__options::-webkit-scrollbar {
+  width: 6px;
+}
+
+.bl-enquiry__options::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.bl-enquiry__options::-webkit-scrollbar-thumb {
+  background: #0066ff;
+}
+
+.bl-enquiry__option {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 12px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.bl-enquiry__option:hover,
+.bl-enquiry__option[data-active="true"] {
+  outline: 1px solid #0066ff;
+  outline-offset: -1px;
+  background: #b7d1fa;
+}
+
+.bl-enquiry__option[aria-selected="true"] {
+  background: #0066ff;
+  color: #fcfcfa;
+}
+
+.bl-enquiry__submit {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  height: 60px;
+  padding: 0 28px;
+  border: 0;
+  border-radius: 60px;
+  background: #0066ff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.bl-enquiry .bl-enquiry__submit {
+  color: #fcfcfa;
+}
+
+.bl-enquiry__submit svg {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.bl-enquiry__submit:hover {
+  outline: 1px solid #0066ff;
+  outline-offset: 3px;
+}
+
+.bl-enquiry__close:hover {
+  background: #b7d1fa;
+}
+
+.bl-enquiry :focus-visible {
+  outline: 2px solid #0066ff;
+  outline-offset: 3px;
+}
+
+/* Focus the field's own border without a second, detached outline.
+   Trade 1px of padding for the thicker border to keep text and layout still. */
+.bl-enquiry .bl-enquiry__input:focus,
+.bl-enquiry .bl-enquiry__select:focus {
+  border: 2px solid #0066ff;
+  padding-inline: 18px;
+  /* Override the export's global !important focus ring only on these fields. */
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  box-shadow: none;
+}
+
+.bl-enquiry [aria-invalid="true"] {
+  border-color: #0066ff;
+}
+
+.bl-enquiry__error {
+  margin: -4px 0 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.bl-enquiry__status {
+  flex: none;
+  margin: -16px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bl-enquiry__status a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.bl-enquiry__submit:disabled {
+  cursor: wait;
+}
+
+[data-enquiry-trigger]:focus-visible,
+a[href$="#start-a-project"]:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+/* When a keyboard leaves very little height, scroll the whole card so the
+   introduction cannot consume the active input's available viewport. */
+.bl-enquiry[data-short-viewport="true"] .bl-enquiry__panel {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #0066ff #fcfcfa;
+}
+
+.bl-enquiry[data-short-viewport="true"] .bl-enquiry__form {
+  flex: none;
+  overflow: visible;
+}
+
+@media (max-width: 871px) {
+  .bl-enquiry__panel {
+    padding: 24px;
+    height: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .bl-enquiry__title-row {
+    height: auto;
+    gap: 16px;
+  }
+
+  .bl-enquiry__title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -2px;
+  }
+
+  .bl-enquiry__pair {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 380px) {
+  .bl-enquiry__option {
+    /* Keep wrapped service names inside their 40px rows on narrow screens. */
+    line-height: 16px;
+  }
+}
