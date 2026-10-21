@@ -83,12 +83,37 @@ export function securityHeaders(root, surface = publicSurface(root)) {
     'Cross-Origin-Resource-Policy': 'same-origin'
   };
 }
+// Factor shared path segments so Vercel's 4096-character source limit is respected.
+function compactRoutePattern(routes, escape) {
+  const root = { terminal: false, children: new Map() };
+  for (const route of routes) {
+    let node = root;
+    for (const segment of route.slice(1).split('/')) {
+      if (!node.children.has(segment)) node.children.set(segment, { terminal: false, children: new Map() });
+      node = node.children.get(segment);
+    }
+    node.terminal = true;
+  }
+  function render(node, top = false) {
+    if (!node.children.size) return '';
+    const groups = new Map();
+    for (const [segment, child] of node.children) {
+      const suffix = render(child);
+      if (!groups.has(suffix)) groups.set(suffix, []);
+      groups.get(suffix).push(escape(segment));
+    }
+    const branches = [...groups].map(([suffix, segments]) => (segments.length === 1 ? segments[0] : '(?:' + segments.join('|') + ')') + suffix);
+    const pattern = (top ? '' : '/') + (branches.length === 1 ? branches[0] : '(?:' + branches.join('|') + ')');
+    return node.terminal ? '(?:' + pattern + ')?' : pattern;
+  }
+  return render(root, true);
+}
 export function vercelConfig(root, surface = publicSurface(root)) {
   const headers = { ...securityHeaders(root, surface), 'Strict-Transport-Security': 'max-age=31536000' };
   const escapeRegex = s => s.replace(/[.*+?^$()|[\]\\]/g, c => '\\' + c);
-  const pages = [...surface.routes.keys()].map(s => escapeRegex(s.slice(1))).join('|');
+  const pages = compactRoutePattern(surface.routes.keys(), escapeRegex);
   const assets = "assets/(?:[A-Za-z0-9_-]+/)*[A-Za-z0-9_][A-Za-z0-9_.-]*\\.(?:avif|css|eot|gif|ico|jpe?g|js|mjs|mp3|mp4|ogg|otf|png|svg|ttf|wav|webm|webp|woff2?)";
-  const redirects = [...surface.redirects.keys()].map(s => escapeRegex(s.slice(1))).join('|');
+  const redirects = compactRoutePattern(surface.redirects.keys(), escapeRegex);
   const allowed = '(?:' + pages + '|' + redirects + '|' + assets + ')';
   return {
     $schema: 'https://openapi.vercel.sh/vercel.json',

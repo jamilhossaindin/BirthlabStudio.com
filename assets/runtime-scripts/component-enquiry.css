@@ -58,7 +58,7 @@
   flex: 0 0 auto;
   width: 100%;
   max-width: 840px;
-  height: 647px;
+  height: auto;
   max-height: calc(var(--bl-viewport-height, 100dvh) - 32px);
   margin: auto;
   padding: 48px;
@@ -298,6 +298,9 @@
 
 .bl-enquiry .bl-enquiry__submit {
   color: #fcfcfa;
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  box-shadow: none;
 }
 
 .bl-enquiry__submit svg {
@@ -306,9 +309,8 @@
   height: 24px;
 }
 
-.bl-enquiry__submit:hover {
-  outline: 1px solid #0066ff;
-  outline-offset: 3px;
+.bl-enquiry .bl-enquiry__submit:focus-visible {
+  box-shadow: inset 0 0 0 2px #fcfcfa;
 }
 
 .bl-enquiry__close:hover {
@@ -336,10 +338,45 @@
   border-color: #0066ff;
 }
 
-.bl-enquiry__error {
-  margin: -4px 0 0;
-  font-size: 14px;
-  line-height: 21px;
+.bl-enquiry__control {
+  position: relative;
+}
+
+.bl-enquiry__control .bl-enquiry__input {
+  display: block;
+}
+
+.bl-enquiry__field-message {
+  min-width: 0;
+  color: #0066ff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* Keep validation inside the border, wrapping on narrow phones. */
+.bl-enquiry__input-message {
+  position: absolute;
+  inset: 0 20px;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.bl-enquiry__control[data-error="true"] .bl-enquiry__input::placeholder {
+  opacity: 0;
+}
+
+/* An invalid email stays editable and visible beneath its in-field message. */
+.bl-enquiry__control[data-error="true"][data-filled="true"] .bl-enquiry__input {
+  padding-top: 18px;
+}
+
+.bl-enquiry__control[data-filled="true"] .bl-enquiry__input-message {
+  top: 4px;
+  bottom: auto;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .bl-enquiry__status {
@@ -377,6 +414,76 @@ a[href$="#start-a-project"]:focus-visible {
 .bl-enquiry[data-short-viewport="true"] .bl-enquiry__form {
   flex: none;
   overflow: visible;
+}
+
+/* Let delivery status messages increase the desktop card's height. */
+@media (min-width: 872px) {
+  .bl-enquiry__panel {
+    min-height: min(680px, calc(var(--bl-viewport-height, 100dvh) - 32px));
+  }
+
+  .bl-enquiry__form {
+    flex: 1 1 auto;
+  }
+
+  .bl-enquiry .bl-enquiry__submit {
+    margin-top: auto;
+  }
+}
+
+/* Keep the complete form visible on shorter desktop displays too. */
+@media (min-width: 872px) and (max-height: 767px) {
+  .bl-enquiry__panel {
+    min-height: 0;
+    padding: 32px;
+  }
+
+  .bl-enquiry__form {
+    margin-top: 24px;
+    gap: 24px;
+  }
+
+  .bl-enquiry__fields {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 872px) and (max-height: 679px) {
+  .bl-enquiry__panel {
+    padding: 24px;
+  }
+
+  .bl-enquiry__title-row {
+    height: 53px;
+  }
+
+  .bl-enquiry__title {
+    font-size: 48px;
+    letter-spacing: -2.4px;
+  }
+
+  .bl-enquiry__intro {
+    gap: 10px;
+  }
+
+  .bl-enquiry__form {
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .bl-enquiry__fields {
+    gap: 16px;
+  }
+
+  .bl-enquiry__field {
+    gap: 8px;
+  }
+
+  .bl-enquiry__input,
+  .bl-enquiry__select,
+  .bl-enquiry__submit {
+    height: 48px;
+  }
 }
 
 @media (max-width: 871px) {

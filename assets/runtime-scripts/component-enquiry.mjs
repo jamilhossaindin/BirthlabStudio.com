@@ -5,6 +5,7 @@ import {
   y as React,
   r as createRoot,
 } from './react-core.mjs';
+import { S as motion, t as initializeMotion } from './framer-motion.mjs';
 import { submitEnquiry } from './enquiry-integration.mjs';
 import { enquiryServices as services } from './enquiry-services.mjs';
 
@@ -16,6 +17,7 @@ export function installEnquiry() {
   initializeEnvironment();
   initializeReact();
   initializeReactDOM();
+  initializeMotion();
   const host = document.createElement('div');
   host.id = 'birthlab-enquiry-root';
   document.body.append(host);
@@ -24,6 +26,8 @@ export function installEnquiry() {
 
 function EnquiryModal() {
   const h = React.createElement;
+  const supportsHover = useMediaQuery('(hover: hover)');
+  const reducedMotion = useMediaQuery('(prefers-reduced-motion: reduce)');
   const dialog = React.useRef(null);
   const form = React.useRef(null);
   const selector = React.useRef(null);
@@ -321,14 +325,23 @@ function EnquiryModal() {
   function field(name, label, placeholder, type, autoComplete, required = false) {
     return h('div', { className: 'bl-enquiry__field' },
       h('label', { className: 'bl-enquiry__label', htmlFor: `bl-enquiry-${name}` }, label),
-      h('input', {
-        id: `bl-enquiry-${name}`, className: 'bl-enquiry__input', name, type, autoComplete, placeholder, required,
-        value: values[name], readOnly: status === 'pending',
-        'aria-invalid': errors[name] ? 'true' : undefined,
-        'aria-describedby': errors[name] ? `bl-enquiry-${name}-error` : undefined,
-        onChange: event => updateField(name, event.target.value),
-      }),
-      errors[name] && h('p', { id: `bl-enquiry-${name}-error`, className: 'bl-enquiry__error', role: 'alert' }, errors[name]),
+      h('div', {
+        className: 'bl-enquiry__control',
+        'data-error': errors[name] ? 'true' : undefined,
+        'data-filled': values[name] ? 'true' : undefined,
+      },
+        h('input', {
+          id: `bl-enquiry-${name}`, className: 'bl-enquiry__input', name, type, autoComplete, required,
+          placeholder: errors[name] || placeholder,
+          value: values[name], readOnly: status === 'pending',
+          'aria-invalid': errors[name] ? 'true' : undefined,
+          'aria-describedby': errors[name] ? `bl-enquiry-${name}-error` : undefined,
+          onChange: event => updateField(name, event.target.value),
+        }),
+        errors[name] && h('span', {
+          id: `bl-enquiry-${name}-error`, className: 'bl-enquiry__field-message bl-enquiry__input-message', role: 'alert',
+        }, errors[name]),
+      ),
     );
   }
 
@@ -387,17 +400,29 @@ function EnquiryModal() {
               disabled: status === 'pending',
               onClick: () => expanded ? setExpanded(false) : openOptions(),
             },
-            h('span', { className: values.service ? undefined : 'bl-enquiry__placeholder' }, values.service || 'Select a service'),
+            h('span', {
+              id: errors.service ? 'bl-enquiry-service-error' : undefined,
+              className: errors.service ? 'bl-enquiry__field-message' : values.service ? undefined : 'bl-enquiry__placeholder',
+              role: errors.service ? 'alert' : undefined,
+            }, errors.service || values.service || 'Select a service'),
             h('svg', { className: 'bl-enquiry__chevron', viewBox: '0 0 20 20', fill: 'none', 'aria-hidden': 'true' },
               h('path', { d: 'm5 7.5 5 5 5-5', stroke: 'currentColor', strokeWidth: 1.5 }),
             )),
           ),
-          errors.service && h('p', { id: 'bl-enquiry-service-error', className: 'bl-enquiry__error', role: 'alert' }, errors.service),
         ),
       ),
-      h('button', { type: 'submit', className: 'bl-enquiry__submit', disabled: status === 'pending' },
+      h(motion.button, {
+        type: 'submit', className: 'bl-enquiry__submit', disabled: status === 'pending',
+        initial: 'rest', animate: 'rest', whileHover: 'active', whileFocus: 'active',
+        whileInView: supportsHover ? undefined : 'active', viewport: { amount: .6 },
+      },
         h('span', null, status === 'pending' ? 'Sending enquiry…' : 'Send enquiry'),
-        h('svg', { viewBox: '0 0 24 24', fill: 'none', 'aria-hidden': 'true' },
+        h(motion.svg, {
+          viewBox: '0 0 24 24', fill: 'none', 'aria-hidden': 'true',
+          variants: { rest: { rotate: reducedMotion ? 45 : 0 }, active: { rotate: reducedMotion ? 45 : 405 } },
+          transition: reducedMotion ? { duration: 0 } : { type: 'spring', bounce: .2, delay: 0, duration: .4 },
+          style: { transformOrigin: '50% 50%' },
+        },
           h('path', { d: 'M7 17 17 7M7 7h10v10', stroke: 'currentColor', strokeWidth: 1.5 }),
         ),
       ),
@@ -415,6 +440,18 @@ function EnquiryModal() {
         onPointerDown: event => event.preventDefault(),
         onMouseMove: () => setActiveOption(index), onClick: () => chooseOption(index),
       }, service)))));
+}
+
+function useMediaQuery(query) {
+  const [matches, setMatches] = React.useState(() => window.matchMedia(query).matches);
+  React.useEffect(() => {
+    const media = window.matchMedia(query);
+    const update = () => setMatches(media.matches);
+    update();
+    media.addEventListener('change', update);
+    return () => media.removeEventListener('change', update);
+  }, [query]);
+  return matches;
 }
 
 function lockPageScroll() {

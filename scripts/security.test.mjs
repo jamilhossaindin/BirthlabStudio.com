@@ -110,6 +110,7 @@ test('static server security boundary', async t => {
     });
     await t.test('Vercel routing rejects private files before filesystem fallback',()=>{
       const surface=publicSurface(root),config=vercelConfig(root,surface),deny=new RegExp(config.routes[1].src);
+      for (const route of config.routes) if (route.src) assert.ok(route.src.length <= 4096, 'Vercel route sources must fit the hosting schema');
       for(const route of ['/.git/config','/.env','/package.json','/docs/report.md','/scripts/server.mjs','/assets/.env.js','/unknown-secret.txt']) assert.equal(deny.test(route),true,route);
       for(const route of [...surface.routes.keys(),...surface.redirects.keys(),...surface.assets]) assert.equal(deny.test(route),false,route);
     });
